@@ -3,7 +3,6 @@ const fs = require("fs").promises;
 const cors = require("cors");
 const path = require("path");
 const cron = require("node-cron");
-const { scrapePlayers } = require("./index.js");
 
 const app = express();
 const PORT = process.env.PORT || 3001;
