@@ -1,0 +1,22 @@
+# Modules Node
+node_modules/
+
+# Logs
+*.log
+
+# Fichiers de build
+dist/
+.build/
+.cache/
+
+# Environnements / clés
+.env
+config.js
+
+# IDE
+.vscode/
+.idea/
+
+# Fichiers temporaires
+*.tmp
+*.swp
