@@ -10,6 +10,7 @@ Une API REST pour accéder aux données des joueurs CS:GO, avec une documentatio
 - Recherche par nom d'équipe ou de joueur
 - Filtrage par équipe
 - Support CORS
+- Mise à jour automatique hebdomadaire des données (tous les lundis à 2h du matin)
 
 ## 📋 Prérequis
 
@@ -75,7 +76,7 @@ curl http://localhost:3001/api/teams/Spirit/players
 
 ```
 scrappePro/
-├── api.js           # Serveur API Express
+├── api.js           # Serveur API Express avec mise à jour automatique
 ├── index.js         # Script de scraping
 ├── players.json     # Base de données des joueurs
 ├── docs/            # Documentation
@@ -83,6 +84,21 @@ scrappePro/
 │   └── style.css    # Styles de la documentation
 └── package.json     # Dépendances et scripts
 ```
+
+## 🔄 Mise à jour automatique
+
+L'API est configurée pour mettre à jour automatiquement les données des joueurs tous les lundis à 2h du matin. Cette mise à jour :
+
+- Récupère les dernières informations des joueurs
+- Met à jour les statistiques
+- Actualise les équipes et les trophées
+- Conserve l'historique des données
+
+Pour que la mise à jour automatique fonctionne correctement, assurez-vous que :
+
+- Le serveur est en cours d'exécution 24/7
+- La connexion Internet est stable
+- Les ressources système sont suffisantes
 
 ## 📝 Format des données
 
