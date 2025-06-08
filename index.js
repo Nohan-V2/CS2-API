@@ -287,4 +287,5 @@ async function scrapePlayers() {
   }
 }
 
-scrapePlayers().catch(console.error);
+// Exporter la fonction scrapePlayers au lieu de l'exécuter directement
+module.exports = { scrapePlayers };

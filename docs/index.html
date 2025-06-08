@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Documentation API CS:GO Players</title>
+    <title>Documentation API CS2 Players</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -15,7 +15,7 @@
   <body>
     <nav>
       <div class="nav-content">
-        <h1>CS:GO Players API</h1>
+        <h1>CS2 Players API</h1>
         <ul>
           <li><a href="#introduction">Introduction</a></li>
           <li><a href="#endpoints">Endpoints</a></li>
@@ -29,14 +29,14 @@
       <section id="introduction">
         <h2>Introduction</h2>
         <p>
-          L'API CS:GO Players fournit des informations détaillées sur les
-          joueurs professionnels de Counter-Strike 2. Elle permet d'accéder aux
-          données des joueurs, leurs équipes, et plus encore.
+          L'API CS2 Players fournit des informations détaillées sur les joueurs
+          professionnels de Counter-Strike 2. Elle permet d'accéder aux données
+          des joueurs, leurs équipes, et plus encore.
         </p>
         <div class="info-box">
           <p>
             <strong>URL de base :</strong>
-            <code>http://localhost:3000/api</code>
+            <code>https://cs2-api.onrender.com/api</code>
           </p>
           <p><strong>Format de réponse :</strong> JSON</p>
         </div>
@@ -69,7 +69,7 @@
         <div class="endpoint">
           <h3>Joueur spécifique</h3>
           <div class="method get">GET</div>
-          <code>/players/:id</code>
+          <code>/players/{idPlayer}</code>
           <p>Récupère les informations d'un joueur spécifique.</p>
           <div class="response">
             <h4>Réponse</h4>
@@ -103,7 +103,7 @@
         <div class="endpoint">
           <h3>Joueurs d'une équipe</h3>
           <div class="method get">GET</div>
-          <code>/teams/:team/players</code>
+          <code>/teams/{team}/players</code>
           <p>Récupère tous les joueurs d'une équipe spécifique.</p>
           <div class="response">
             <h4>Réponse</h4>
@@ -122,7 +122,7 @@
         <div class="endpoint">
           <h3>Recherche</h3>
           <div class="method get">GET</div>
-          <code>/search?query=terme</code>
+          <code>/search?query={team or nickname}</code>
           <p>Recherche des joueurs par nom ou équipe.</p>
           <div class="response">
             <h4>Réponse</h4>
@@ -142,18 +142,18 @@
       <section id="exemples">
         <h2>Exemples d'utilisation</h2>
         <div class="example">
-          <h3>Exemple avec cURL</h3>
+          <h3>Exemple d'url</h3>
           <pre><code class="language-bash"># Liste des joueurs
-curl http://localhost:3000/api/players
+https://cs2-api.onrender.com/api/players
 
 # Joueur spécifique
-curl http://localhost:3000/api/players/donk
+https://cs2-api.onrender.com/api/players/donk
 
 # Joueurs d'une équipe
-curl http://localhost:3000/api/teams/Spirit/players
+https://cs2-api.onrender.com/api/teams/Spirit/players
 
 # Recherche
-curl http://localhost:3000/api/search?query=donk</code></pre>
+https://cs2-api.onrender.com/api/search?query=donk</code></pre>
         </div>
       </section>
 
@@ -161,43 +161,37 @@ curl http://localhost:3000/api/search?query=donk</code></pre>
         <h2>Tester l'API</h2>
         <div class="test-container">
           <div class="test-form">
-            <select id="endpoint-select">
-              <option value="/players">Liste des joueurs</option>
-              <option value="/players/donk">Joueur spécifique</option>
-              <option value="/teams">Liste des équipes</option>
-              <option value="/teams/Spirit/players">
-                Joueurs d'une équipe
-              </option>
-              <option value="/search?query=donk">Recherche</option>
-            </select>
-            <button onclick="testEndpoint()">Tester</button>
+            <div class="form-group">
+              <label for="custom-query">Entrez votre requête :</label>
+              <input
+                type="text"
+                id="custom-query"
+                placeholder="Ex: /players, /teams, /search?query=donk..."
+                onkeypress="handleKeyPress(event)"
+              />
+            </div>
+            <div class="form-group">
+              <div class="button-group">
+                <button onclick="testEndpoint()" class="test-button">
+                  Tester
+                </button>
+                <button onclick="clearResults()" class="clear-button">
+                  Effacer
+                </button>
+              </div>
+            </div>
           </div>
           <div class="test-result">
-            <h3>Résultat</h3>
+            <div class="result-header">
+              <h3>Résultat</h3>
+              <span id="status-code"></span>
+            </div>
             <pre><code id="result" class="language-json"></code></pre>
           </div>
         </div>
       </section>
     </main>
 
-    <script>
-      // Initialiser highlight.js
-      hljs.highlightAll();
-
-      // Fonction pour tester les endpoints
-      async function testEndpoint() {
-        const endpoint = document.getElementById("endpoint-select").value;
-        const resultElement = document.getElementById("result");
-
-        try {
-          const response = await fetch(`http://localhost:3000/api${endpoint}`);
-          const data = await response.json();
-          resultElement.textContent = JSON.stringify(data, null, 2);
-          hljs.highlightElement(resultElement);
-        } catch (error) {
-          resultElement.textContent = `Erreur: ${error.message}`;
-        }
-      }
-    </script>
+    <script src="./script.js"></script>
   </body>
 </html>
