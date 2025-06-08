@@ -1,0 +1,17 @@
+{
+  "name": "csgo-players-api",
+  "version": "1.0.0",
+  "description": "API pour les données des joueurs CS:GO",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js",
+    "dev": "nodemon api.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

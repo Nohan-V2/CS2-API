@@ -1,0 +1,730 @@
+[
+  {
+    "id": "donk",
+    "nickname": "donk",
+    "team": "Spirit",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
+    "age": "18 years",
+    "trophies": 8
+  },
+  {
+    "id": "zywoo",
+    "nickname": "ZywOo",
+    "team": "One Shot",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fr.svg",
+    "age": "24 years",
+    "trophies": 8
+  },
+  {
+    "id": "m0nesy",
+    "nickname": "m0NESY",
+    "team": "Falcons",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
+    "age": "20 years",
+    "trophies": 8
+  },
+  {
+    "id": "sh1ro",
+    "nickname": "sh1ro",
+    "team": "Spirit",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
+    "age": "23 years",
+    "trophies": 8
+  },
+  {
+    "id": "tn1r",
+    "nickname": "tN1R",
+    "team": "HEROIC",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/by.svg",
+    "age": "24 years",
+    "trophies": 6
+  },
+  {
+    "id": "ropz",
+    "nickname": "ropz",
+    "team": "Vitality",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ee.svg",
+    "age": "25 years",
+    "trophies": 8
+  },
+  {
+    "id": "kscerato",
+    "nickname": "KSCERATO",
+    "team": "Black Dragons",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/br.svg",
+    "age": "25 years",
+    "trophies": 8
+  },
+  {
+    "id": "xantares",
+    "nickname": "XANTARES",
+    "team": "Aurora",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/tr.svg",
+    "age": "29 years",
+    "trophies": 6
+  },
+  {
+    "id": "niko",
+    "nickname": "NiKo",
+    "team": "Falcons",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ba.svg",
+    "age": "28 years",
+    "trophies": 8
+  },
+  {
+    "id": "heavygod",
+    "nickname": "HeavyGod",
+    "team": "G2",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/il.svg",
+    "age": "22 years",
+    "trophies": 1
+  },
+  {
+    "id": "wicadia",
+    "nickname": "Wicadia",
+    "team": "Aurora",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/tr.svg",
+    "age": "20 years",
+    "trophies": 1
+  },
+  {
+    "id": "xfl0ud",
+    "nickname": "xfl0ud",
+    "team": "HEROIC",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/tr.svg",
+    "age": "22 years",
+    "trophies": 8
+  },
+  {
+    "id": "device",
+    "nickname": "dev1ce",
+    "team": "Astralis",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
+    "age": "29 years",
+    "trophies": 7
+  },
+  {
+    "id": "regali",
+    "nickname": "regali",
+    "team": "FlyQuest",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ro.svg",
+    "age": "22 years",
+    "trophies": 6
+  },
+  {
+    "id": "torzsi",
+    "nickname": "torzsi",
+    "team": "MOUZ",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/hu.svg",
+    "age": "23 years",
+    "trophies": 5
+  },
+  {
+    "id": "sunpayus",
+    "nickname": "SunPayus",
+    "team": "HEROIC",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/es.svg",
+    "age": "26 years",
+    "trophies": 8
+  },
+  {
+    "id": "rez",
+    "nickname": "REZ",
+    "team": "GamerLegion",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/se.svg",
+    "age": "27 years",
+    "trophies": 6
+  },
+  {
+    "id": "twistzz",
+    "nickname": "Twistzz",
+    "team": "Liquid",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ca.svg",
+    "age": "25 years",
+    "trophies": 8
+  },
+  {
+    "id": "spinx",
+    "nickname": "Spinx",
+    "team": "MOUZ",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/il.svg",
+    "age": "24 years",
+    "trophies": 8
+  },
+  {
+    "id": "frozen-david-cernansky",
+    "nickname": "frozen",
+    "team": "FaZe",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/sk.svg",
+    "age": "22 years",
+    "trophies": 7
+  },
+  {
+    "id": "fl1t",
+    "nickname": "FL1T",
+    "team": "Virtus.pro",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
+    "age": "24 years",
+    "trophies": 8
+  },
+  {
+    "id": "b1t",
+    "nickname": "b1t",
+    "team": "Natus Vincere",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ua.svg",
+    "age": "22 years",
+    "trophies": 8
+  },
+  {
+    "id": "nertz",
+    "nickname": "Nertz",
+    "team": "Liquid",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/il.svg",
+    "age": "25 years",
+    "trophies": 5
+  },
+  {
+    "id": "elige",
+    "nickname": "EliGE",
+    "team": "FaZe",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/us.svg",
+    "age": "27 years",
+    "trophies": 7
+  },
+  {
+    "id": "pr-cs-go",
+    "nickname": "PR",
+    "team": "GamerLegion",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/cz.svg",
+    "age": "17 years",
+    "trophies": 4
+  },
+  {
+    "id": "woxic",
+    "nickname": "woxic",
+    "team": "Aurora",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/tr.svg",
+    "age": "26 years",
+    "trophies": 4
+  },
+  {
+    "id": "flamez",
+    "nickname": "flameZ",
+    "team": "Vitality",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/il.svg",
+    "age": "21 years",
+    "trophies": 8
+  },
+  {
+    "id": "w0nderful",
+    "nickname": "w0nderful",
+    "team": "Natus Vincere",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ua.svg",
+    "age": "20 years",
+    "trophies": 8
+  },
+  {
+    "id": "hyped",
+    "nickname": "hyped",
+    "team": "BIG",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/de.svg",
+    "age": "24 years",
+    "trophies": 4
+  },
+  {
+    "id": "nqz",
+    "nickname": "nqz",
+    "team": "paiN",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/br.svg",
+    "age": "20 years",
+    "trophies": 8
+  },
+  {
+    "id": "stavn",
+    "nickname": "stavn",
+    "team": "Astralis",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
+    "age": "23 years",
+    "trophies": 8
+  },
+  {
+    "id": "maka",
+    "nickname": "Maka",
+    "team": "3DMAX",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fr.svg",
+    "age": "27 years",
+    "trophies": 4
+  },
+  {
+    "id": "jl-cs-go",
+    "nickname": "jL",
+    "team": "Natus Vincere",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/lt.svg",
+    "age": "25 years",
+    "trophies": 8
+  },
+  {
+    "id": "player-910",
+    "nickname": "910",
+    "team": "The MongolZ",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/mn.svg",
+    "age": "22 years",
+    "trophies": 6
+  },
+  {
+    "id": "malbsmd",
+    "nickname": "malbsMd",
+    "team": "G2",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/gt.svg",
+    "age": "22 years",
+    "trophies": 8
+  },
+  {
+    "id": "yuurih",
+    "nickname": "yuurih",
+    "team": "FURIA",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/br.svg",
+    "age": "25 years",
+    "trophies": 8
+  },
+  {
+    "id": "senzu",
+    "nickname": "senzu",
+    "team": "The MongolZ",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/mn.svg",
+    "age": "18 years",
+    "trophies": 7
+  },
+  {
+    "id": "xertionic",
+    "nickname": "xertioN",
+    "team": "Go Kill",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/il.svg",
+    "age": "20 years",
+    "trophies": 6
+  },
+  {
+    "id": "jdc",
+    "nickname": "JDC",
+    "team": "BIG",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/de.svg",
+    "age": "25 years",
+    "trophies": 3
+  },
+  {
+    "id": "staehr",
+    "nickname": "Staehr",
+    "team": "Astralis",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
+    "age": "20 years",
+    "trophies": 2
+  },
+  {
+    "id": "broky",
+    "nickname": "broky",
+    "team": "FaZe",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/lv.svg",
+    "age": "24 years",
+    "trophies": 8
+  },
+  {
+    "id": "im",
+    "nickname": "iM",
+    "team": "Natus Vincere",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ro.svg",
+    "age": "25 years",
+    "trophies": 7
+  },
+  {
+    "id": "degster",
+    "nickname": "degster",
+    "team": "Falcons",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
+    "age": "23 years",
+    "trophies": 6
+  },
+  {
+    "id": "lucky_cs_go",
+    "nickname": "Lucky",
+    "team": "3DMAX",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fr.svg",
+    "age": "27 years",
+    "trophies": 5
+  },
+  {
+    "id": "ex3rcice",
+    "nickname": "Ex3rcice",
+    "team": "3DMAX",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fr.svg",
+    "age": "25 years",
+    "trophies": 6
+  },
+  {
+    "id": "zont1x",
+    "nickname": "zont1x",
+    "team": "Spirit",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ua.svg",
+    "age": "19 years",
+    "trophies": 8
+  },
+  {
+    "id": "jimpphat",
+    "nickname": "Jimpphat",
+    "team": "MOUZ",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fi.svg",
+    "age": "18 years",
+    "trophies": 8
+  },
+  {
+    "id": "hunter-",
+    "nickname": "huNter-",
+    "team": "G2",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ba.svg",
+    "age": "29 years",
+    "trophies": 8
+  },
+  {
+    "id": "teses",
+    "nickname": "TeSeS",
+    "team": "Falcons",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
+    "age": "24 years",
+    "trophies": 8
+  },
+  {
+    "id": "icy",
+    "nickname": "icy",
+    "team": "Virtus.pro",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/kz.svg",
+    "age": "20 years",
+    "trophies": 3
+  },
+  {
+    "id": "bodyy",
+    "nickname": "bodyy",
+    "team": "3DMAX",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fr.svg",
+    "age": "28 years",
+    "trophies": 5
+  },
+  {
+    "id": "ultimate-roland-tomkowiak",
+    "nickname": "ultimate",
+    "team": "Liquid",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/pl.svg",
+    "age": "21 years",
+    "trophies": 1
+  },
+  {
+    "id": "mzinho",
+    "nickname": "mzinho",
+    "team": "The MongolZ",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/mn.svg",
+    "age": "17 years",
+    "trophies": 6
+  },
+  {
+    "id": "fame",
+    "nickname": "fame",
+    "team": "Virtus.pro",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
+    "age": "22 years",
+    "trophies": 8
+  },
+  {
+    "id": "jottaaa",
+    "nickname": "jottAAA",
+    "team": "Aurora",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/tr.svg",
+    "age": "22 years",
+    "trophies": 5
+  },
+  {
+    "id": "mezil",
+    "nickname": "mezii",
+    "team": "Vitality",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/gb.svg",
+    "age": "26 years",
+    "trophies": 8
+  },
+  {
+    "id": "dav1deus",
+    "nickname": "dav1deuS",
+    "team": "paiN",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/cl.svg",
+    "age": "25 years",
+    "trophies": 8
+  },
+  {
+    "id": "blitz",
+    "nickname": "bLitz",
+    "team": "The MongolZ",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/mn.svg",
+    "age": "23 years",
+    "trophies": 7
+  },
+  {
+    "id": "sl3nd",
+    "nickname": "sl3nd",
+    "team": "GamerLegion",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/hu.svg",
+    "age": "20 years",
+    "trophies": 3
+  },
+  {
+    "id": "rain",
+    "nickname": "rain",
+    "team": "FaZe",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/no.svg",
+    "age": "30 years",
+    "trophies": 8
+  },
+  {
+    "id": "magixx",
+    "nickname": "magixx",
+    "team": "Spirit",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
+    "age": "22 years",
+    "trophies": 8
+  },
+  {
+    "id": "jabbi",
+    "nickname": "Jabbi",
+    "team": "Astralis",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
+    "age": "21 years",
+    "trophies": 8
+  },
+  {
+    "id": "yxngstxr",
+    "nickname": "Yxngstxr",
+    "team": "HEROIC",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/se.svg",
+    "age": "19 years",
+    "trophies": 8
+  },
+  {
+    "id": "vexite",
+    "nickname": "Vexite",
+    "team": "FlyQuest",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/au.svg",
+    "age": "20 years",
+    "trophies": 7
+  },
+  {
+    "id": "krimbo",
+    "nickname": "Krimbo",
+    "team": "BIG",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/de.svg",
+    "age": "22 years",
+    "trophies": 8
+  },
+  {
+    "id": "apex",
+    "nickname": "apEX",
+    "team": "Rush A Rush B",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fr.svg",
+    "age": "32 years",
+    "trophies": 8
+  },
+  {
+    "id": "skullz",
+    "nickname": "skullz",
+    "team": "FURIA",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/br.svg",
+    "age": "23 years",
+    "trophies": 8
+  },
+  {
+    "id": "tauson",
+    "nickname": "Tauson",
+    "team": "GamerLegion",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
+    "age": "20 years",
+    "trophies": 4
+  },
+  {
+    "id": "tabsen",
+    "nickname": "tabseN",
+    "team": "Rush A Rush B",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/de.svg",
+    "age": "30 years",
+    "trophies": 8
+  },
+  {
+    "id": "fl4mus",
+    "nickname": "FL4MUS",
+    "team": "Virtus.pro",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
+    "age": "20 years",
+    "trophies": 3
+  },
+  {
+    "id": "fallen",
+    "nickname": "FalleN",
+    "team": "FURIA",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/br.svg",
+    "age": "34 years",
+    "trophies": 6
+  },
+  {
+    "id": "graviti",
+    "nickname": "Graviti",
+    "team": "3DMAX",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fr.svg",
+    "age": "21 years",
+    "trophies": 5
+  },
+  {
+    "id": "naf",
+    "nickname": "NAF",
+    "team": "Liquid",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ca.svg",
+    "age": "27 years",
+    "trophies": 5
+  },
+  {
+    "id": "biguzera",
+    "nickname": "biguzera",
+    "team": "paiN",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/br.svg",
+    "age": "28 years",
+    "trophies": 8
+  },
+  {
+    "id": "snow",
+    "nickname": "Snow",
+    "team": "paiN",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/br.svg",
+    "age": "18 years",
+    "trophies": 6
+  },
+  {
+    "id": "magisk",
+    "nickname": "Magisk",
+    "team": "Falcons",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
+    "age": "27 years",
+    "trophies": 8
+  },
+  {
+    "id": "lnz",
+    "nickname": "LNZ",
+    "team": "HEROIC",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/se.svg",
+    "age": "22 years",
+    "trophies": 8
+  },
+  {
+    "id": "brollan",
+    "nickname": "Brollan",
+    "team": "MOUZ",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/se.svg",
+    "age": "22 years",
+    "trophies": 7
+  },
+  {
+    "id": "kyuubii",
+    "nickname": "kyuubii",
+    "team": "BIG",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/de.svg",
+    "age": "20 years",
+    "trophies": 3
+  },
+  {
+    "id": "electronic",
+    "nickname": "electroNic",
+    "team": "Cloud9",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
+    "age": "26 years",
+    "trophies": 8
+  },
+  {
+    "id": "kyxsan",
+    "nickname": "kyxsan",
+    "team": "Falcons",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/mk.svg",
+    "age": "25 years",
+    "trophies": 8
+  },
+  {
+    "id": "ins",
+    "nickname": "INS",
+    "team": "FlyQuest",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/au.svg",
+    "age": "26 years",
+    "trophies": 8
+  },
+  {
+    "id": "techno4k",
+    "nickname": "Techno4k",
+    "team": "The MongolZ",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/mn.svg",
+    "age": "20 years",
+    "trophies": 7
+  },
+  {
+    "id": "liazz",
+    "nickname": "Liazz",
+    "team": "FlyQuest",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/au.svg",
+    "age": "27 years",
+    "trophies": 6
+  },
+  {
+    "id": "ztr",
+    "nickname": "ztr",
+    "team": "GamerLegion",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/se.svg",
+    "age": "21 years",
+    "trophies": 4
+  },
+  {
+    "id": "chopper",
+    "nickname": "chopper",
+    "team": "Spirit",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
+    "age": "28 years",
+    "trophies": 7
+  },
+  {
+    "id": "maj3r",
+    "nickname": "MAJ3R",
+    "team": "Aurora",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/tr.svg",
+    "age": "34 years",
+    "trophies": 5
+  },
+  {
+    "id": "aleksib",
+    "nickname": "Aleksib",
+    "team": "Natus Vincere",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fi.svg",
+    "age": "28 years",
+    "trophies": 8
+  },
+  {
+    "id": "snax",
+    "nickname": "Snax",
+    "team": "G2",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/pl.svg",
+    "age": "31 years",
+    "trophies": 6
+  },
+  {
+    "id": "karrigan",
+    "nickname": "karrigan",
+    "team": "FaZe",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
+    "age": "35 years",
+    "trophies": 8
+  },
+  {
+    "id": "cadian",
+    "nickname": "cadiaN",
+    "team": "Astralis",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
+    "age": "29 years",
+    "trophies": 8
+  }
+]

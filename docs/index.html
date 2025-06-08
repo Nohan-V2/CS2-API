@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documentation API CS:GO Players</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/atom-one-dark.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/json.min.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-content">
+        <h1>CS:GO Players API</h1>
+        <ul>
+          <li><a href="#introduction">Introduction</a></li>
+          <li><a href="#endpoints">Endpoints</a></li>
+          <li><a href="#exemples">Exemples</a></li>
+          <li><a href="#test">Tester l'API</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section id="introduction">
+        <h2>Introduction</h2>
+        <p>
+          L'API CS:GO Players fournit des informations détaillées sur les
+          joueurs professionnels de Counter-Strike 2. Elle permet d'accéder aux
+          données des joueurs, leurs équipes, et plus encore.
+        </p>
+        <div class="info-box">
+          <p>
+            <strong>URL de base :</strong>
+            <code>http://localhost:3000/api</code>
+          </p>
+          <p><strong>Format de réponse :</strong> JSON</p>
+        </div>
+      </section>
+
+      <section id="endpoints">
+        <h2>Endpoints</h2>
+
+        <div class="endpoint">
+          <h3>Liste des joueurs</h3>
+          <div class="method get">GET</div>
+          <code>/players</code>
+          <p>Récupère la liste complète des joueurs.</p>
+          <div class="response">
+            <h4>Réponse</h4>
+            <pre><code class="language-json">[
+  {
+    "id": "donk",
+    "nickname": "donk",
+    "team": "Spirit",
+    "nationality": "https://bo3.gg/...",
+    "age": "18 years",
+    "trophies": 8
+  },
+  ...
+]</code></pre>
+          </div>
+        </div>
+
+        <div class="endpoint">
+          <h3>Joueur spécifique</h3>
+          <div class="method get">GET</div>
+          <code>/players/:id</code>
+          <p>Récupère les informations d'un joueur spécifique.</p>
+          <div class="response">
+            <h4>Réponse</h4>
+            <pre><code class="language-json">{
+  "id": "donk",
+  "nickname": "donk",
+  "team": "Spirit",
+  "nationality": "https://bo3.gg/...",
+  "age": "18 years",
+  "trophies": 8
+}</code></pre>
+          </div>
+        </div>
+
+        <div class="endpoint">
+          <h3>Liste des équipes</h3>
+          <div class="method get">GET</div>
+          <code>/teams</code>
+          <p>Récupère la liste de toutes les équipes.</p>
+          <div class="response">
+            <h4>Réponse</h4>
+            <pre><code class="language-json">[
+  "Spirit",
+  "FaZe",
+  "Natus Vincere",
+  ...
+]</code></pre>
+          </div>
+        </div>
+
+        <div class="endpoint">
+          <h3>Joueurs d'une équipe</h3>
+          <div class="method get">GET</div>
+          <code>/teams/:team/players</code>
+          <p>Récupère tous les joueurs d'une équipe spécifique.</p>
+          <div class="response">
+            <h4>Réponse</h4>
+            <pre><code class="language-json">[
+  {
+    "id": "donk",
+    "nickname": "donk",
+    "team": "Spirit",
+    ...
+  },
+  ...
+]</code></pre>
+          </div>
+        </div>
+
+        <div class="endpoint">
+          <h3>Recherche</h3>
+          <div class="method get">GET</div>
+          <code>/search?query=terme</code>
+          <p>Recherche des joueurs par nom ou équipe.</p>
+          <div class="response">
+            <h4>Réponse</h4>
+            <pre><code class="language-json">[
+  {
+    "id": "donk",
+    "nickname": "donk",
+    "team": "Spirit",
+    ...
+  },
+  ...
+]</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <section id="exemples">
+        <h2>Exemples d'utilisation</h2>
+        <div class="example">
+          <h3>Exemple avec cURL</h3>
+          <pre><code class="language-bash"># Liste des joueurs
+curl http://localhost:3000/api/players
+
+# Joueur spécifique
+curl http://localhost:3000/api/players/donk
+
+# Joueurs d'une équipe
+curl http://localhost:3000/api/teams/Spirit/players
+
+# Recherche
+curl http://localhost:3000/api/search?query=donk</code></pre>
+        </div>
+      </section>
+
+      <section id="test">
+        <h2>Tester l'API</h2>
+        <div class="test-container">
+          <div class="test-form">
+            <select id="endpoint-select">
+              <option value="/players">Liste des joueurs</option>
+              <option value="/players/donk">Joueur spécifique</option>
+              <option value="/teams">Liste des équipes</option>
+              <option value="/teams/Spirit/players">
+                Joueurs d'une équipe
+              </option>
+              <option value="/search?query=donk">Recherche</option>
+            </select>
+            <button onclick="testEndpoint()">Tester</button>
+          </div>
+          <div class="test-result">
+            <h3>Résultat</h3>
+            <pre><code id="result" class="language-json"></code></pre>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      // Initialiser highlight.js
+      hljs.highlightAll();
+
+      // Fonction pour tester les endpoints
+      async function testEndpoint() {
+        const endpoint = document.getElementById("endpoint-select").value;
+        const resultElement = document.getElementById("result");
+
+        try {
+          const response = await fetch(`http://localhost:3000/api${endpoint}`);
+          const data = await response.json();
+          resultElement.textContent = JSON.stringify(data, null, 2);
+          hljs.highlightElement(resultElement);
+        } catch (error) {
+          resultElement.textContent = `Erreur: ${error.message}`;
+        }
+      }
+    </script>
+  </body>
+</html>
