@@ -4,6 +4,9 @@ const cors = require("cors");
 const path = require("path");
 const cron = require("node-cron");
 
+const app = express();
+const PORT = process.env.PORT || 3001;
+
 // Middleware
 app.use(cors());
 app.use(express.json());
