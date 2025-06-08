@@ -1,38 +1,119 @@
-# BO3.gg Player Scraper
+# CS:GO Players API
 
-Ce script permet de scraper les informations des joueurs du site bo3.gg.
+Une API REST pour accéder aux données des joueurs CS:GO, avec une documentation interactive.
 
-## Installation
+## 🚀 Fonctionnalités
 
-1. Assurez-vous d'avoir Node.js installé sur votre machine
+- Récupération des données des joueurs CS:GO
+- Documentation interactive
+- Interface de test intégrée
+- Recherche par nom d'équipe ou de joueur
+- Filtrage par équipe
+- Support CORS
+
+## 📋 Prérequis
+
+- Node.js (v14 ou supérieur)
+- npm (v6 ou supérieur)
+
+## 🔧 Installation
+
+1. Clonez le repository :
+
+```bash
+git clone [URL_DU_REPO]
+cd scrappePro
+```
+
 2. Installez les dépendances :
 
 ```bash
 npm install
 ```
 
-## Utilisation
-
-Pour lancer le scraper :
+3. Démarrez l'API :
 
 ```bash
 npm start
 ```
 
-Le script va :
+L'API sera accessible sur `http://localhost:3001`
 
-1. Ouvrir un navigateur Chrome
-2. Visiter la page des joueurs
-3. Cliquer sur chaque joueur pour récupérer ses informations
-4. Sauvegarder les données dans un fichier `players.json`
+## 📚 Documentation
 
-## Données récupérées
+La documentation interactive est disponible à l'adresse : `http://localhost:3001/docs`
 
-Pour chaque joueur, les informations suivantes sont collectées :
+### Endpoints disponibles
 
-- Nickname
-- Team
-- Nationalité
-- Âge
-- Prix gagnés
-- Trophées
+- `GET /api/players` : Liste tous les joueurs
+- `GET /api/players/:id` : Récupère un joueur spécifique
+- `GET /api/teams` : Liste toutes les équipes
+- `GET /api/teams/:team/players` : Liste les joueurs d'une équipe
+- `GET /api/search?query=terme` : Recherche des joueurs
+
+## 🔍 Exemples d'utilisation
+
+### Récupérer tous les joueurs
+
+```bash
+curl http://localhost:3001/api/players
+```
+
+### Rechercher un joueur
+
+```bash
+curl http://localhost:3001/api/search?query=donk
+```
+
+### Obtenir les joueurs d'une équipe
+
+```bash
+curl http://localhost:3001/api/teams/Spirit/players
+```
+
+## 🛠️ Structure du projet
+
+```
+scrappePro/
+├── api.js           # Serveur API Express
+├── index.js         # Script de scraping
+├── players.json     # Base de données des joueurs
+├── docs/            # Documentation
+│   ├── index.html   # Page de documentation
+│   └── style.css    # Styles de la documentation
+└── package.json     # Dépendances et scripts
+```
+
+## 📝 Format des données
+
+### Joueur
+
+```json
+{
+  "id": "string",
+  "nickname": "string",
+  "team": "string",
+  "nationality": "string",
+  "age": "string",
+  "prize": "string",
+  "trophies": "number"
+}
+```
+
+## 🤝 Contribution
+
+Les contributions sont les bienvenues ! N'hésitez pas à :
+
+1. Fork le projet
+2. Créer une branche (`git checkout -b feature/AmazingFeature`)
+3. Commit vos changements (`git commit -m 'Add some AmazingFeature'`)
+4. Push sur la branche (`git push origin feature/AmazingFeature`)
+5. Ouvrir une Pull Request
+
+## 📄 Licence
+
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+
+## 📧 Contact
+
+Pour toute question ou suggestion, n'hésitez pas à ouvrir une issue.
