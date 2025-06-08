@@ -8,17 +8,6 @@ const { scrapePlayers } = require("./index.js");
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-// Planification de la mise à jour hebdomadaire (tous les lundis à 2h du matin)
-cron.schedule("0 2 * * 1", async () => {
-  console.log("Démarrage de la mise à jour hebdomadaire des données...");
-  try {
-    await scrapePlayers();
-    console.log("Mise à jour hebdomadaire terminée avec succès");
-  } catch (error) {
-    console.error("Erreur lors de la mise à jour hebdomadaire:", error);
-  }
-});
-
 // Middleware
 app.use(cors());
 app.use(express.json());
