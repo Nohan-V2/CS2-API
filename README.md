@@ -1,10 +1,10 @@
-# CS:GO Players API
+# CS2 Players API
 
-Une API REST pour accéder aux données des joueurs CS:GO, avec une documentation interactive.
+Une API REST pour accéder aux données des joueurs CS2, avec une documentation interactive.
 
 ## 🚀 Fonctionnalités
 
-- Récupération des données des joueurs CS:GO
+- Récupération des données des joueurs CS2
 - Documentation interactive
 - Interface de test intégrée
 - Recherche par nom d'équipe ou de joueur

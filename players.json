@@ -5,7 +5,7 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
     "age": 18,
     "trophies": 23,
-    "kda": 1.73,
+    "kd": 1.45,
     "team": "Spirit"
   },
   {
@@ -14,7 +14,7 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fr.svg",
     "age": 24,
     "trophies": 30,
-    "kda": 1.62,
+    "kd": 1.37,
     "team": "Vitality"
   },
   {
@@ -23,7 +23,7 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
     "age": 20,
     "trophies": 16,
-    "kda": 1.53,
+    "kd": 1.31,
     "team": "Falcons"
   },
   {
@@ -32,7 +32,7 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
     "age": 23,
     "trophies": 27,
-    "kda": 1.71,
+    "kd": 1.5,
     "team": "Spirit"
   },
   {
@@ -41,7 +41,7 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/by.svg",
     "age": 24,
     "trophies": 12,
-    "kda": 1.51,
+    "kd": 1.3,
     "team": "HEROIC"
   },
   {
@@ -50,7 +50,7 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ee.svg",
     "age": 25,
     "trophies": 32,
-    "kda": 1.46,
+    "kd": 1.28,
     "team": "Vitality"
   },
   {
@@ -59,7 +59,7 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/br.svg",
     "age": 25,
     "trophies": 16,
-    "kda": 1.26,
+    "kd": 1.13,
     "team": "FURIA"
   },
   {
@@ -68,7 +68,7 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/tr.svg",
     "age": 29,
     "trophies": 12,
-    "kda": 1.37,
+    "kd": 1.15,
     "team": "Aurora"
   },
   {
@@ -77,7 +77,7 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ba.svg",
     "age": 28,
     "trophies": 19,
-    "kda": 1.25,
+    "kd": 1.05,
     "team": "Falcons"
   },
   {
@@ -86,7 +86,7 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/il.svg",
     "age": 22,
     "trophies": 2,
-    "kda": 1.42,
+    "kd": 1.27,
     "team": "G2"
   },
   {
@@ -95,35 +95,8 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/tr.svg",
     "age": 20,
     "trophies": 2,
-    "kda": 1.25,
+    "kd": 1.07,
     "team": "Aurora"
-  },
-  {
-    "id": "device",
-    "nickname": "dev1ce",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
-    "age": 29,
-    "trophies": 14,
-    "kda": 1.41,
-    "team": "Astralis"
-  },
-  {
-    "id": "regali",
-    "nickname": "regali",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ro.svg",
-    "age": 22,
-    "trophies": 12,
-    "kda": 1.32,
-    "team": "FlyQuest"
-  },
-  {
-    "id": "xfl0ud",
-    "nickname": "xfl0ud",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/tr.svg",
-    "age": 22,
-    "trophies": 18,
-    "kda": 1.31,
-    "team": "HEROIC"
   },
   {
     "id": "torzsi",
@@ -131,8 +104,17 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/hu.svg",
     "age": 23,
     "trophies": 10,
-    "kda": 1.51,
+    "kd": 1.3,
     "team": "MOUZ"
+  },
+  {
+    "id": "device",
+    "nickname": "dev1ce",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
+    "age": 29,
+    "trophies": 14,
+    "kd": 1.21,
+    "team": "Astralis"
   },
   {
     "id": "rez",
@@ -140,7 +122,7 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/se.svg",
     "age": 27,
     "trophies": 12,
-    "kda": 1.25,
+    "kd": 1.04,
     "team": "GamerLegion"
   },
   {
@@ -149,17 +131,8 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ca.svg",
     "age": 25,
     "trophies": 23,
-    "kda": 1.19,
+    "kd": 1.08,
     "team": "Liquid"
-  },
-  {
-    "id": "spinx",
-    "nickname": "Spinx",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/il.svg",
-    "age": 24,
-    "trophies": 20,
-    "kda": 1.32,
-    "team": "MOUZ"
   },
   {
     "id": "sunpayus",
@@ -167,17 +140,17 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/es.svg",
     "age": 26,
     "trophies": 17,
-    "kda": 1.39,
+    "kd": 1.17,
     "team": "HEROIC"
   },
   {
-    "id": "frozen-david-cernansky",
-    "nickname": "frozen",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/sk.svg",
-    "age": 22,
-    "trophies": 14,
-    "kda": 1.35,
-    "team": "FaZe"
+    "id": "spinx",
+    "nickname": "Spinx",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/il.svg",
+    "age": 24,
+    "trophies": 20,
+    "kd": 1.19,
+    "team": "MOUZ"
   },
   {
     "id": "fl1t",
@@ -185,35 +158,26 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
     "age": 24,
     "trophies": 19,
-    "kda": 1.33,
+    "kd": 1.18,
     "team": "Virtus.pro"
   },
   {
-    "id": "b1t",
-    "nickname": "b1t",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ua.svg",
+    "id": "frozen-david-cernansky",
+    "nickname": "frozen",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/sk.svg",
     "age": 22,
-    "trophies": 26,
-    "kda": 1.09,
-    "team": "Natus Vincere"
-  },
-  {
-    "id": "nertz",
-    "nickname": "Nertz",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/il.svg",
-    "age": 25,
-    "trophies": 10,
-    "kda": 1.09,
-    "team": "Liquid"
-  },
-  {
-    "id": "elige",
-    "nickname": "EliGE",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/us.svg",
-    "age": 27,
     "trophies": 14,
-    "kda": 1.26,
+    "kd": 1.14,
     "team": "FaZe"
+  },
+  {
+    "id": "xfl0ud",
+    "nickname": "xfl0ud",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/tr.svg",
+    "age": 22,
+    "trophies": 18,
+    "kd": 1.07,
+    "team": "HEROIC"
   },
   {
     "id": "pr-cs-go",
@@ -221,7 +185,7 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/cz.svg",
     "age": 17,
     "trophies": 8,
-    "kda": 1.12,
+    "kd": 0.96,
     "team": "GamerLegion"
   },
   {
@@ -230,8 +194,26 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/tr.svg",
     "age": 26,
     "trophies": 8,
-    "kda": 1.24,
+    "kd": 1.1,
     "team": "Aurora"
+  },
+  {
+    "id": "elige",
+    "nickname": "EliGE",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/us.svg",
+    "age": 27,
+    "trophies": 14,
+    "kd": 1.04,
+    "team": "FaZe"
+  },
+  {
+    "id": "nertz",
+    "nickname": "Nertz",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/il.svg",
+    "age": 25,
+    "trophies": 10,
+    "kd": 0.9,
+    "team": "Liquid"
   },
   {
     "id": "flamez",
@@ -239,26 +221,8 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/il.svg",
     "age": 21,
     "trophies": 25,
-    "kda": 1.22,
+    "kd": 1.05,
     "team": "Vitality"
-  },
-  {
-    "id": "w0nderful",
-    "nickname": "w0nderful",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ua.svg",
-    "age": 20,
-    "trophies": 18,
-    "kda": 1.29,
-    "team": "Natus Vincere"
-  },
-  {
-    "id": "hyped",
-    "nickname": "hyped",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/de.svg",
-    "age": 24,
-    "trophies": 8,
-    "kda": 1.17,
-    "team": "BIG"
   },
   {
     "id": "nqz",
@@ -266,8 +230,17 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/br.svg",
     "age": 20,
     "trophies": 21,
-    "kda": 1.22,
+    "kd": 1.14,
     "team": "paiN"
+  },
+  {
+    "id": "hyped",
+    "nickname": "hyped",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/de.svg",
+    "age": 24,
+    "trophies": 8,
+    "kd": 1,
+    "team": "BIG"
   },
   {
     "id": "stavn",
@@ -275,7 +248,7 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
     "age": 23,
     "trophies": 20,
-    "kda": 1.36,
+    "kd": 1.17,
     "team": "Astralis"
   },
   {
@@ -284,17 +257,8 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fr.svg",
     "age": 27,
     "trophies": 8,
-    "kda": 1.16,
+    "kd": 1.02,
     "team": "3DMAX"
-  },
-  {
-    "id": "jl-cs-go",
-    "nickname": "jL",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/lt.svg",
-    "age": 25,
-    "trophies": 17,
-    "kda": 1.12,
-    "team": "Natus Vincere"
   },
   {
     "id": "player-910",
@@ -302,17 +266,17 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/mn.svg",
     "age": 22,
     "trophies": 12,
-    "kda": 1.29,
+    "kd": 1.08,
     "team": "The MongolZ"
   },
   {
-    "id": "yuurih",
-    "nickname": "yuurih",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/br.svg",
-    "age": 25,
-    "trophies": 16,
-    "kda": 1.19,
-    "team": "FURIA"
+    "id": "broky",
+    "nickname": "broky",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/lv.svg",
+    "age": 24,
+    "trophies": 25,
+    "kd": 1.15,
+    "team": "FaZe"
   },
   {
     "id": "malbsmd",
@@ -320,8 +284,17 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/gt.svg",
     "age": 22,
     "trophies": 18,
-    "kda": 1.21,
+    "kd": 1,
     "team": "G2"
+  },
+  {
+    "id": "yuurih",
+    "nickname": "yuurih",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/br.svg",
+    "age": 25,
+    "trophies": 16,
+    "kd": 1.08,
+    "team": "FURIA"
   },
   {
     "id": "senzu",
@@ -329,17 +302,8 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/mn.svg",
     "age": 18,
     "trophies": 14,
-    "kda": 1.22,
+    "kd": 1.06,
     "team": "The MongolZ"
-  },
-  {
-    "id": "xertionic",
-    "nickname": "xertioN",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/il.svg",
-    "age": 20,
-    "trophies": 12,
-    "kda": 1.25,
-    "team": "MOUZ"
   },
   {
     "id": "jdc",
@@ -347,7 +311,7 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/de.svg",
     "age": 25,
     "trophies": 6,
-    "kda": 1.05,
+    "kd": 0.93,
     "team": "BIG"
   },
   {
@@ -356,26 +320,17 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
     "age": 20,
     "trophies": 4,
-    "kda": 1.23,
+    "kd": 1.09,
     "team": "Astralis"
   },
   {
-    "id": "broky",
-    "nickname": "broky",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/lv.svg",
-    "age": 24,
-    "trophies": 25,
-    "kda": 1.32,
-    "team": "FaZe"
-  },
-  {
-    "id": "im",
-    "nickname": "iM",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ro.svg",
-    "age": 25,
-    "trophies": 14,
-    "kda": 1.04,
-    "team": "Natus Vincere"
+    "id": "xertionic",
+    "nickname": "xertioN",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/il.svg",
+    "age": 20,
+    "trophies": 12,
+    "kd": 1.01,
+    "team": "MOUZ"
   },
   {
     "id": "degster",
@@ -383,17 +338,8 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
     "age": 23,
     "trophies": 12,
-    "kda": 0,
+    "kd": 1.15,
     "team": "Falcons"
-  },
-  {
-    "id": "lucky_cs_go",
-    "nickname": "Lucky",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fr.svg",
-    "age": 27,
-    "trophies": 10,
-    "kda": 104.4,
-    "team": "3DMAX"
   },
   {
     "id": "ex3rcice",
@@ -401,7 +347,25 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fr.svg",
     "age": 25,
     "trophies": 12,
-    "kda": 1.06,
+    "kd": 1,
+    "team": "3DMAX"
+  },
+  {
+    "id": "bodyy",
+    "nickname": "bodyy",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fr.svg",
+    "age": 28,
+    "trophies": 10,
+    "kd": 0.86,
+    "team": "3DMAX"
+  },
+  {
+    "id": "lucky_cs_go",
+    "nickname": "Lucky",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fr.svg",
+    "age": 27,
+    "trophies": 10,
+    "kd": 0.94,
     "team": "3DMAX"
   },
   {
@@ -410,17 +374,8 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ua.svg",
     "age": 19,
     "trophies": 23,
-    "kda": 1.22,
+    "kd": 1.08,
     "team": "Spirit"
-  },
-  {
-    "id": "jimpphat",
-    "nickname": "Jimpphat",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fi.svg",
-    "age": 18,
-    "trophies": 19,
-    "kda": 1.26,
-    "team": "MOUZ"
   },
   {
     "id": "hunter-",
@@ -428,17 +383,8 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ba.svg",
     "age": 29,
     "trophies": 18,
-    "kda": 117.61,
+    "kd": 1.08,
     "team": "G2"
-  },
-  {
-    "id": "bodyy",
-    "nickname": "bodyy",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fr.svg",
-    "age": 28,
-    "trophies": 10,
-    "kda": 99.92,
-    "team": "3DMAX"
   },
   {
     "id": "teses",
@@ -446,17 +392,26 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
     "age": 24,
     "trophies": 22,
-    "kda": 1.14,
+    "kd": 1,
     "team": "Falcons"
   },
   {
-    "id": "icy",
-    "nickname": "icy",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/kz.svg",
-    "age": 20,
-    "trophies": 6,
-    "kda": 1.4,
-    "team": "Virtus.pro"
+    "id": "jimpphat",
+    "nickname": "Jimpphat",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fi.svg",
+    "age": 18,
+    "trophies": 19,
+    "kd": 1.14,
+    "team": "MOUZ"
+  },
+  {
+    "id": "dav1deus",
+    "nickname": "dav1deuS",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/cl.svg",
+    "age": 25,
+    "trophies": 22,
+    "kd": 0.94,
+    "team": "paiN"
   },
   {
     "id": "ultimate-roland-tomkowiak",
@@ -464,8 +419,17 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/pl.svg",
     "age": 21,
     "trophies": 2,
-    "kda": 1.17,
+    "kd": 0.97,
     "team": "Liquid"
+  },
+  {
+    "id": "icy",
+    "nickname": "icy",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/kz.svg",
+    "age": 20,
+    "trophies": 6,
+    "kd": 1.21,
+    "team": "Virtus.pro"
   },
   {
     "id": "mzinho",
@@ -473,7 +437,7 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/mn.svg",
     "age": 17,
     "trophies": 12,
-    "kda": 1.15,
+    "kd": 1,
     "team": "The MongolZ"
   },
   {
@@ -482,7 +446,7 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
     "age": 22,
     "trophies": 22,
-    "kda": 1.16,
+    "kd": 1.05,
     "team": "Virtus.pro"
   },
   {
@@ -491,7 +455,7 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/tr.svg",
     "age": 22,
     "trophies": 10,
-    "kda": 1.13,
+    "kd": 1,
     "team": "Aurora"
   },
   {
@@ -500,17 +464,8 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/gb.svg",
     "age": 26,
     "trophies": 22,
-    "kda": 1.19,
+    "kd": 1.06,
     "team": "Vitality"
-  },
-  {
-    "id": "dav1deus",
-    "nickname": "dav1deuS",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/cl.svg",
-    "age": 25,
-    "trophies": 22,
-    "kda": 1.03,
-    "team": "paiN"
   },
   {
     "id": "blitz",
@@ -518,7 +473,7 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/mn.svg",
     "age": 23,
     "trophies": 14,
-    "kda": 1.03,
+    "kd": 0.91,
     "team": "The MongolZ"
   },
   {
@@ -527,35 +482,8 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/hu.svg",
     "age": 20,
     "trophies": 6,
-    "kda": 1.05,
+    "kd": 0.91,
     "team": "GamerLegion"
-  },
-  {
-    "id": "rain",
-    "nickname": "rain",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/no.svg",
-    "age": 30,
-    "trophies": 24,
-    "kda": 1.17,
-    "team": "FaZe"
-  },
-  {
-    "id": "magixx",
-    "nickname": "magixx",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
-    "age": 22,
-    "trophies": 24,
-    "kda": 1.1,
-    "team": "Spirit"
-  },
-  {
-    "id": "jabbi",
-    "nickname": "Jabbi",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
-    "age": 21,
-    "trophies": 17,
-    "kda": 1.13,
-    "team": "Astralis"
   },
   {
     "id": "yxngstxr",
@@ -563,17 +491,35 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/se.svg",
     "age": 19,
     "trophies": 16,
-    "kda": 1.15,
+    "kd": 1.06,
     "team": "HEROIC"
   },
   {
-    "id": "vexite",
-    "nickname": "Vexite",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/au.svg",
-    "age": 20,
-    "trophies": 14,
-    "kda": 102.96,
-    "team": "FlyQuest"
+    "id": "magixx",
+    "nickname": "magixx",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
+    "age": 22,
+    "trophies": 24,
+    "kd": 1,
+    "team": "Spirit"
+  },
+  {
+    "id": "rain",
+    "nickname": "rain",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/no.svg",
+    "age": 30,
+    "trophies": 24,
+    "kd": 1.02,
+    "team": "FaZe"
+  },
+  {
+    "id": "jabbi",
+    "nickname": "Jabbi",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
+    "age": 21,
+    "trophies": 17,
+    "kd": 0.97,
+    "team": "Astralis"
   },
   {
     "id": "krimbo",
@@ -581,7 +527,7 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/de.svg",
     "age": 22,
     "trophies": 18,
-    "kda": 1.16,
+    "kd": 1.03,
     "team": "BIG"
   },
   {
@@ -590,17 +536,8 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fr.svg",
     "age": 32,
     "trophies": 30,
-    "kda": 1.09,
+    "kd": 0.95,
     "team": "Vitality"
-  },
-  {
-    "id": "skullz",
-    "nickname": "skullz",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/br.svg",
-    "age": 23,
-    "trophies": 16,
-    "kda": 1.03,
-    "team": "FURIA"
   },
   {
     "id": "tauson",
@@ -608,7 +545,7 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
     "age": 20,
     "trophies": 8,
-    "kda": 1.14,
+    "kd": 1.02,
     "team": "GamerLegion"
   },
   {
@@ -617,8 +554,17 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/de.svg",
     "age": 30,
     "trophies": 18,
-    "kda": 0.97,
+    "kd": 0.83,
     "team": "BIG"
+  },
+  {
+    "id": "graviti",
+    "nickname": "Graviti",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fr.svg",
+    "age": 21,
+    "trophies": 10,
+    "kd": 0.89,
+    "team": "3DMAX"
   },
   {
     "id": "fl4mus",
@@ -626,7 +572,7 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
     "age": 20,
     "trophies": 6,
-    "kda": 1.01,
+    "kd": 0.88,
     "team": "Virtus.pro"
   },
   {
@@ -635,17 +581,17 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/br.svg",
     "age": 34,
     "trophies": 12,
-    "kda": 0.99,
+    "kd": 0.88,
     "team": "FURIA"
   },
   {
-    "id": "graviti",
-    "nickname": "Graviti",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fr.svg",
-    "age": 21,
-    "trophies": 10,
-    "kda": 0.98,
-    "team": "3DMAX"
+    "id": "magisk",
+    "nickname": "Magisk",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
+    "age": 27,
+    "trophies": 19,
+    "kd": 0.98,
+    "team": "Falcons"
   },
   {
     "id": "naf",
@@ -653,7 +599,7 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ca.svg",
     "age": 27,
     "trophies": 10,
-    "kda": 0.89,
+    "kd": 0.81,
     "team": "Liquid"
   },
   {
@@ -662,7 +608,7 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/br.svg",
     "age": 28,
     "trophies": 23,
-    "kda": 1.01,
+    "kd": 0.88,
     "team": "paiN"
   },
   {
@@ -671,35 +617,8 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/br.svg",
     "age": 18,
     "trophies": 12,
-    "kda": 0.93,
+    "kd": 0.83,
     "team": "paiN"
-  },
-  {
-    "id": "magisk",
-    "nickname": "Magisk",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
-    "age": 27,
-    "trophies": 19,
-    "kda": 1.06,
-    "team": "Falcons"
-  },
-  {
-    "id": "brollan",
-    "nickname": "Brollan",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/se.svg",
-    "age": 22,
-    "trophies": 14,
-    "kda": 0.97,
-    "team": "MOUZ"
-  },
-  {
-    "id": "kyuubii",
-    "nickname": "kyuubii",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/de.svg",
-    "age": 20,
-    "trophies": 6,
-    "kda": 1,
-    "team": "BIG"
   },
   {
     "id": "lnz",
@@ -707,8 +626,17 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/se.svg",
     "age": 22,
     "trophies": 17,
-    "kda": 103.45,
+    "kd": 0.88,
     "team": "HEROIC"
+  },
+  {
+    "id": "kyuubii",
+    "nickname": "kyuubii",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/de.svg",
+    "age": 20,
+    "trophies": 6,
+    "kd": 0.87,
+    "team": "BIG"
   },
   {
     "id": "electronic",
@@ -716,8 +644,17 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
     "age": 26,
     "trophies": 22,
-    "kda": 1,
+    "kd": 0.9,
     "team": "Virtus.pro"
+  },
+  {
+    "id": "brollan",
+    "nickname": "Brollan",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/se.svg",
+    "age": 22,
+    "trophies": 14,
+    "kd": 0.84,
+    "team": "MOUZ"
   },
   {
     "id": "kyxsan",
@@ -725,17 +662,8 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/mk.svg",
     "age": 25,
     "trophies": 16,
-    "kda": 100.4,
+    "kd": 0.85,
     "team": "Falcons"
-  },
-  {
-    "id": "ins",
-    "nickname": "INS",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/au.svg",
-    "age": 26,
-    "trophies": 16,
-    "kda": 0.9,
-    "team": "FlyQuest"
   },
   {
     "id": "techno4k",
@@ -743,17 +671,8 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/mn.svg",
     "age": 20,
     "trophies": 14,
-    "kda": 0.9,
+    "kd": 0.79,
     "team": "The MongolZ"
-  },
-  {
-    "id": "liazz",
-    "nickname": "Liazz",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/au.svg",
-    "age": 27,
-    "trophies": 12,
-    "kda": 99.29,
-    "team": "FlyQuest"
   },
   {
     "id": "ztr",
@@ -761,7 +680,7 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/se.svg",
     "age": 21,
     "trophies": 8,
-    "kda": 0.94,
+    "kd": 0.84,
     "team": "GamerLegion"
   },
   {
@@ -770,7 +689,7 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
     "age": 28,
     "trophies": 24,
-    "kda": 0.9,
+    "kd": 0.75,
     "team": "Spirit"
   },
   {
@@ -779,17 +698,8 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/tr.svg",
     "age": 34,
     "trophies": 10,
-    "kda": 0.86,
+    "kd": 0.76,
     "team": "Aurora"
-  },
-  {
-    "id": "aleksib",
-    "nickname": "Aleksib",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fi.svg",
-    "age": 28,
-    "trophies": 16,
-    "kda": 1.01,
-    "team": "Natus Vincere"
   },
   {
     "id": "snax",
@@ -797,17 +707,8 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/pl.svg",
     "age": 31,
     "trophies": 12,
-    "kda": 1.02,
+    "kd": 0.89,
     "team": "G2"
-  },
-  {
-    "id": "karrigan",
-    "nickname": "karrigan",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
-    "age": 35,
-    "trophies": 25,
-    "kda": 1.01,
-    "team": "FaZe"
   },
   {
     "id": "cadian",
@@ -815,7 +716,16 @@
     "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
     "age": 29,
     "trophies": 20,
-    "kda": 0.86,
+    "kd": 0.74,
     "team": "Astralis"
+  },
+  {
+    "id": "karrigan",
+    "nickname": "karrigan",
+    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
+    "age": 35,
+    "trophies": 25,
+    "kd": 0.81,
+    "team": "FaZe"
   }
 ]

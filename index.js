@@ -94,27 +94,19 @@ const scrapePlayer = async (browser, link, retryCount = 0) => {
           ".c-table-ingame-stats .table-group .table-row:nth-child(3) .avg .white"
         )
         ?.textContent.trim();
-      const assists = document
-        .querySelector(
-          ".c-table-ingame-stats .table-group .table-row:nth-child(4) .avg .white"
-        )
-        ?.textContent.trim();
 
-      // Calculer le KDA
-      const kda =
+      // Calculer le KD
+      const kd =
         deaths && parseFloat(deaths) !== 0
-          ? (
-              (parseFloat(kills || 0) + parseFloat(assists || 0)) /
-              parseFloat(deaths)
-            ).toFixed(2)
-          : (parseFloat(kills || 0) + parseFloat(assists || 0)).toFixed(2);
+          ? (parseFloat(kills || 0) / parseFloat(deaths)).toFixed(2)
+          : null;
 
       return {
         nickname,
         nationality: nationality ? `https://bo3.gg${nationality}` : null,
         age: age ? parseInt(age) : null,
         trophies,
-        kda: parseFloat(kda),
+        kd: parseFloat(kd),
       };
     });
 
