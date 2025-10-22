@@ -1,731 +1,2290 @@
 [
   {
-    "id": "donk",
-    "nickname": "donk",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
-    "age": 18,
-    "trophies": 23,
-    "kd": 1.45,
-    "team": "Spirit"
-  },
-  {
-    "id": "zywoo",
-    "nickname": "ZywOo",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fr.svg",
-    "age": 24,
-    "trophies": 30,
-    "kd": 1.37,
-    "team": "Vitality"
-  },
-  {
-    "id": "m0nesy",
-    "nickname": "m0NESY",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
-    "age": 20,
-    "trophies": 16,
-    "kd": 1.31,
-    "team": "Falcons"
-  },
-  {
-    "id": "sh1ro",
-    "nickname": "sh1ro",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
-    "age": 23,
-    "trophies": 27,
-    "kd": 1.5,
-    "team": "Spirit"
-  },
-  {
-    "id": "tn1r",
-    "nickname": "tN1R",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/by.svg",
-    "age": 24,
-    "trophies": 12,
-    "kd": 1.3,
-    "team": "HEROIC"
-  },
-  {
-    "id": "ropz",
-    "nickname": "ropz",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ee.svg",
-    "age": 25,
-    "trophies": 32,
-    "kd": 1.28,
-    "team": "Vitality"
-  },
-  {
-    "id": "kscerato",
-    "nickname": "KSCERATO",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/br.svg",
-    "age": 25,
-    "trophies": 16,
-    "kd": 1.13,
-    "team": "FURIA"
-  },
-  {
-    "id": "xantares",
-    "nickname": "XANTARES",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/tr.svg",
-    "age": 29,
-    "trophies": 12,
-    "kd": 1.15,
-    "team": "Aurora"
-  },
-  {
-    "id": "niko",
-    "nickname": "NiKo",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ba.svg",
-    "age": 28,
-    "trophies": 19,
-    "kd": 1.05,
-    "team": "Falcons"
-  },
-  {
-    "id": "heavygod",
-    "nickname": "HeavyGod",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/il.svg",
-    "age": 22,
-    "trophies": 2,
-    "kd": 1.27,
-    "team": "G2"
-  },
-  {
-    "id": "wicadia",
-    "nickname": "Wicadia",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/tr.svg",
-    "age": 20,
-    "trophies": 2,
-    "kd": 1.07,
-    "team": "Aurora"
-  },
-  {
-    "id": "torzsi",
-    "nickname": "torzsi",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/hu.svg",
-    "age": 23,
-    "trophies": 10,
-    "kd": 1.3,
-    "team": "MOUZ"
-  },
-  {
-    "id": "device",
-    "nickname": "dev1ce",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
-    "age": 29,
-    "trophies": 14,
-    "kd": 1.21,
-    "team": "Astralis"
-  },
-  {
-    "id": "rez",
-    "nickname": "REZ",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/se.svg",
-    "age": 27,
-    "trophies": 12,
-    "kd": 1.04,
-    "team": "GamerLegion"
-  },
-  {
-    "id": "twistzz",
-    "nickname": "Twistzz",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ca.svg",
-    "age": 25,
-    "trophies": 23,
-    "kd": 1.08,
-    "team": "Liquid"
-  },
-  {
-    "id": "sunpayus",
-    "nickname": "SunPayus",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/es.svg",
-    "age": 26,
-    "trophies": 17,
-    "kd": 1.17,
-    "team": "HEROIC"
-  },
-  {
-    "id": "spinx",
-    "nickname": "Spinx",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/il.svg",
-    "age": 24,
-    "trophies": 20,
-    "kd": 1.19,
-    "team": "MOUZ"
-  },
-  {
-    "id": "fl1t",
-    "nickname": "FL1T",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
-    "age": 24,
-    "trophies": 19,
-    "kd": 1.18,
-    "team": "Virtus.pro"
-  },
-  {
-    "id": "frozen-david-cernansky",
-    "nickname": "frozen",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/sk.svg",
-    "age": 22,
-    "trophies": 14,
-    "kd": 1.14,
-    "team": "FaZe"
-  },
-  {
-    "id": "xfl0ud",
-    "nickname": "xfl0ud",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/tr.svg",
-    "age": 22,
-    "trophies": 18,
-    "kd": 1.07,
-    "team": "HEROIC"
-  },
-  {
-    "id": "pr-cs-go",
-    "nickname": "PR",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/cz.svg",
-    "age": 17,
-    "trophies": 8,
-    "kd": 0.96,
-    "team": "GamerLegion"
-  },
-  {
-    "id": "woxic",
-    "nickname": "woxic",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/tr.svg",
-    "age": 26,
-    "trophies": 8,
-    "kd": 1.1,
-    "team": "Aurora"
-  },
-  {
-    "id": "elige",
-    "nickname": "EliGE",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/us.svg",
-    "age": 27,
-    "trophies": 14,
-    "kd": 1.04,
-    "team": "FaZe"
-  },
-  {
-    "id": "nertz",
-    "nickname": "Nertz",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/il.svg",
-    "age": 25,
-    "trophies": 10,
-    "kd": 0.9,
-    "team": "Liquid"
-  },
-  {
-    "id": "flamez",
-    "nickname": "flameZ",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/il.svg",
-    "age": 21,
-    "trophies": 25,
-    "kd": 1.05,
-    "team": "Vitality"
-  },
-  {
-    "id": "nqz",
-    "nickname": "nqz",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/br.svg",
-    "age": 20,
-    "trophies": 21,
-    "kd": 1.14,
-    "team": "paiN"
-  },
-  {
-    "id": "hyped",
-    "nickname": "hyped",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/de.svg",
-    "age": 24,
-    "trophies": 8,
-    "kd": 1,
-    "team": "BIG"
-  },
-  {
-    "id": "stavn",
-    "nickname": "stavn",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
-    "age": 23,
-    "trophies": 20,
-    "kd": 1.17,
-    "team": "Astralis"
-  },
-  {
-    "id": "maka",
-    "nickname": "Maka",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fr.svg",
-    "age": 27,
-    "trophies": 8,
-    "kd": 1.02,
-    "team": "3DMAX"
-  },
-  {
-    "id": "player-910",
-    "nickname": "910",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/mn.svg",
-    "age": 22,
-    "trophies": 12,
-    "kd": 1.08,
-    "team": "The MongolZ"
-  },
-  {
-    "id": "broky",
-    "nickname": "broky",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/lv.svg",
-    "age": 24,
-    "trophies": 25,
-    "kd": 1.15,
-    "team": "FaZe"
-  },
-  {
-    "id": "malbsmd",
-    "nickname": "malbsMd",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/gt.svg",
-    "age": 22,
-    "trophies": 18,
-    "kd": 1,
-    "team": "G2"
-  },
-  {
-    "id": "yuurih",
-    "nickname": "yuurih",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/br.svg",
-    "age": 25,
-    "trophies": 16,
-    "kd": 1.08,
-    "team": "FURIA"
-  },
-  {
-    "id": "senzu",
-    "nickname": "senzu",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/mn.svg",
-    "age": 18,
-    "trophies": 14,
-    "kd": 1.06,
-    "team": "The MongolZ"
-  },
-  {
-    "id": "jdc",
-    "nickname": "JDC",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/de.svg",
-    "age": 25,
-    "trophies": 6,
-    "kd": 0.93,
-    "team": "BIG"
-  },
-  {
-    "id": "staehr",
-    "nickname": "Staehr",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
-    "age": 20,
-    "trophies": 4,
-    "kd": 1.09,
-    "team": "Astralis"
-  },
-  {
-    "id": "xertionic",
-    "nickname": "xertioN",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/il.svg",
-    "age": 20,
-    "trophies": 12,
-    "kd": 1.01,
-    "team": "MOUZ"
-  },
-  {
-    "id": "degster",
-    "nickname": "degster",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
-    "age": 23,
-    "trophies": 12,
-    "kd": 1.15,
-    "team": "Falcons"
-  },
-  {
-    "id": "ex3rcice",
-    "nickname": "Ex3rcice",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fr.svg",
-    "age": 25,
-    "trophies": 12,
-    "kd": 1,
-    "team": "3DMAX"
-  },
-  {
-    "id": "bodyy",
-    "nickname": "bodyy",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fr.svg",
-    "age": 28,
-    "trophies": 10,
-    "kd": 0.86,
-    "team": "3DMAX"
-  },
-  {
-    "id": "lucky_cs_go",
-    "nickname": "Lucky",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fr.svg",
-    "age": 27,
-    "trophies": 10,
-    "kd": 0.94,
-    "team": "3DMAX"
-  },
-  {
-    "id": "zont1x",
-    "nickname": "zont1x",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ua.svg",
-    "age": 19,
-    "trophies": 23,
-    "kd": 1.08,
-    "team": "Spirit"
-  },
-  {
-    "id": "hunter-",
-    "nickname": "huNter-",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ba.svg",
-    "age": 29,
-    "trophies": 18,
-    "kd": 1.08,
-    "team": "G2"
-  },
-  {
-    "id": "teses",
-    "nickname": "TeSeS",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
-    "age": 24,
-    "trophies": 22,
-    "kd": 1,
-    "team": "Falcons"
-  },
-  {
-    "id": "jimpphat",
-    "nickname": "Jimpphat",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fi.svg",
-    "age": 18,
-    "trophies": 19,
-    "kd": 1.14,
-    "team": "MOUZ"
-  },
-  {
-    "id": "dav1deus",
-    "nickname": "dav1deuS",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/cl.svg",
-    "age": 25,
-    "trophies": 22,
-    "kd": 0.94,
-    "team": "paiN"
-  },
-  {
-    "id": "ultimate-roland-tomkowiak",
-    "nickname": "ultimate",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/pl.svg",
-    "age": 21,
-    "trophies": 2,
-    "kd": 0.97,
-    "team": "Liquid"
-  },
-  {
-    "id": "icy",
-    "nickname": "icy",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/kz.svg",
-    "age": 20,
-    "trophies": 6,
-    "kd": 1.21,
-    "team": "Virtus.pro"
-  },
-  {
-    "id": "mzinho",
-    "nickname": "mzinho",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/mn.svg",
-    "age": 17,
-    "trophies": 12,
-    "kd": 1,
-    "team": "The MongolZ"
-  },
-  {
-    "id": "fame",
-    "nickname": "fame",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
-    "age": 22,
-    "trophies": 22,
-    "kd": 1.05,
-    "team": "Virtus.pro"
-  },
-  {
-    "id": "jottaaa",
-    "nickname": "jottAAA",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/tr.svg",
-    "age": 22,
-    "trophies": 10,
-    "kd": 1,
-    "team": "Aurora"
-  },
-  {
-    "id": "mezil",
-    "nickname": "mezii",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/gb.svg",
-    "age": 26,
-    "trophies": 22,
-    "kd": 1.06,
-    "team": "Vitality"
-  },
-  {
-    "id": "blitz",
-    "nickname": "bLitz",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/mn.svg",
-    "age": 23,
-    "trophies": 14,
-    "kd": 0.91,
-    "team": "The MongolZ"
-  },
-  {
-    "id": "sl3nd",
-    "nickname": "sl3nd",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/hu.svg",
-    "age": 20,
-    "trophies": 6,
-    "kd": 0.91,
-    "team": "GamerLegion"
-  },
-  {
-    "id": "yxngstxr",
-    "nickname": "Yxngstxr",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/se.svg",
-    "age": 19,
-    "trophies": 16,
-    "kd": 1.06,
-    "team": "HEROIC"
-  },
-  {
-    "id": "magixx",
-    "nickname": "magixx",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
-    "age": 22,
-    "trophies": 24,
-    "kd": 1,
-    "team": "Spirit"
-  },
-  {
-    "id": "rain",
-    "nickname": "rain",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/no.svg",
-    "age": 30,
-    "trophies": 24,
-    "kd": 1.02,
-    "team": "FaZe"
-  },
-  {
-    "id": "jabbi",
-    "nickname": "Jabbi",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
-    "age": 21,
-    "trophies": 17,
-    "kd": 0.97,
-    "team": "Astralis"
-  },
-  {
-    "id": "krimbo",
-    "nickname": "Krimbo",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/de.svg",
-    "age": 22,
-    "trophies": 18,
-    "kd": 1.03,
-    "team": "BIG"
-  },
-  {
-    "id": "apex",
-    "nickname": "apEX",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fr.svg",
-    "age": 32,
-    "trophies": 30,
-    "kd": 0.95,
-    "team": "Vitality"
-  },
-  {
-    "id": "tauson",
-    "nickname": "Tauson",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
-    "age": 20,
-    "trophies": 8,
-    "kd": 1.02,
-    "team": "GamerLegion"
-  },
-  {
-    "id": "tabsen",
-    "nickname": "tabseN",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/de.svg",
-    "age": 30,
-    "trophies": 18,
-    "kd": 0.83,
-    "team": "BIG"
-  },
-  {
-    "id": "graviti",
-    "nickname": "Graviti",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/fr.svg",
-    "age": 21,
-    "trophies": 10,
-    "kd": 0.89,
-    "team": "3DMAX"
-  },
-  {
-    "id": "fl4mus",
-    "nickname": "FL4MUS",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
-    "age": 20,
-    "trophies": 6,
-    "kd": 0.88,
-    "team": "Virtus.pro"
-  },
-  {
-    "id": "fallen",
-    "nickname": "FalleN",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/br.svg",
-    "age": 34,
-    "trophies": 12,
-    "kd": 0.88,
-    "team": "FURIA"
-  },
-  {
-    "id": "magisk",
-    "nickname": "Magisk",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
-    "age": 27,
-    "trophies": 19,
-    "kd": 0.98,
-    "team": "Falcons"
-  },
-  {
-    "id": "naf",
-    "nickname": "NAF",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ca.svg",
-    "age": 27,
-    "trophies": 10,
-    "kd": 0.81,
-    "team": "Liquid"
-  },
-  {
-    "id": "biguzera",
-    "nickname": "biguzera",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/br.svg",
-    "age": 28,
-    "trophies": 23,
-    "kd": 0.88,
-    "team": "paiN"
-  },
-  {
-    "id": "snow",
-    "nickname": "Snow",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/br.svg",
-    "age": 18,
-    "trophies": 12,
-    "kd": 0.83,
-    "team": "paiN"
-  },
-  {
-    "id": "lnz",
-    "nickname": "LNZ",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/se.svg",
-    "age": 22,
-    "trophies": 17,
-    "kd": 0.88,
-    "team": "HEROIC"
-  },
-  {
-    "id": "kyuubii",
-    "nickname": "kyuubii",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/de.svg",
-    "age": 20,
-    "trophies": 6,
-    "kd": 0.87,
-    "team": "BIG"
-  },
-  {
-    "id": "electronic",
-    "nickname": "electroNic",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
-    "age": 26,
-    "trophies": 22,
-    "kd": 0.9,
-    "team": "Virtus.pro"
-  },
-  {
-    "id": "brollan",
-    "nickname": "Brollan",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/se.svg",
-    "age": 22,
-    "trophies": 14,
-    "kd": 0.84,
-    "team": "MOUZ"
-  },
-  {
-    "id": "kyxsan",
-    "nickname": "kyxsan",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/mk.svg",
-    "age": 25,
-    "trophies": 16,
-    "kd": 0.85,
-    "team": "Falcons"
-  },
-  {
-    "id": "techno4k",
-    "nickname": "Techno4k",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/mn.svg",
-    "age": 20,
-    "trophies": 14,
-    "kd": 0.79,
-    "team": "The MongolZ"
-  },
-  {
-    "id": "ztr",
-    "nickname": "ztr",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/se.svg",
-    "age": 21,
-    "trophies": 8,
-    "kd": 0.84,
-    "team": "GamerLegion"
-  },
-  {
-    "id": "chopper",
-    "nickname": "chopper",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/ru.svg",
-    "age": 28,
-    "trophies": 24,
-    "kd": 0.75,
-    "team": "Spirit"
-  },
-  {
-    "id": "maj3r",
-    "nickname": "MAJ3R",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/tr.svg",
-    "age": 34,
-    "trophies": 10,
-    "kd": 0.76,
-    "team": "Aurora"
-  },
-  {
-    "id": "snax",
-    "nickname": "Snax",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/pl.svg",
-    "age": 31,
-    "trophies": 12,
-    "kd": 0.89,
-    "team": "G2"
-  },
-  {
-    "id": "cadian",
-    "nickname": "cadiaN",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
-    "age": 29,
-    "trophies": 20,
-    "kd": 0.74,
-    "team": "Astralis"
-  },
-  {
-    "id": "karrigan",
-    "nickname": "karrigan",
-    "nationality": "https://bo3.gg/_opt/f_svg&q_50&blur_3&s_10x10/img/country-flags/dk.svg",
-    "age": 35,
-    "trophies": 25,
-    "kd": 0.81,
-    "team": "FaZe"
+    "id": "1",
+    "username": "ZywOo",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/FR.gif",
+    "age": "24 years",
+    "team": "Vitality",
+    "majors": "9"
+  },
+  {
+    "id": "2",
+    "username": "zweih",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "18 years",
+    "team": "Spirit",
+    "majors": "1"
+  },
+  {
+    "id": "3",
+    "username": "zorte",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "27 years",
+    "team": "BetBoom",
+    "majors": "3"
+  },
+  {
+    "id": "4",
+    "username": "ztr",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/SE.gif",
+    "age": "22 years",
+    "team": "GamerLegion",
+    "majors": "1"
+  },
+  {
+    "id": "5",
+    "username": "zont1x",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UA.gif",
+    "age": "20 years",
+    "team": "Spirit",
+    "majors": "3"
+  },
+  {
+    "id": "6",
+    "username": "zhokiNg",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/CN.gif",
+    "age": "31 years",
+    "team": "TYLOO",
+    "majors": "1"
+  },
+  {
+    "username": "zock",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UY.gif",
+    "age": "23 years",
+    "team": "Bounty Hunters",
+    "majors": ""
+  },
+  {
+    "username": "z4kr",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/CN.gif",
+    "age": "22 years",
+    "team": "Lynn Vision",
+    "majors": "2"
+  },
+  {
+    "username": "zeRRoFIX",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UA.gif",
+    "age": "18 years",
+    "team": "m1x",
+    "majors": "1"
+  },
+  {
+    "username": "yxngstxr",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/SE.gif",
+    "age": "21 years",
+    "team": "HEROIC",
+    "majors": "1"
+  },
+  {
+    "username": "YEKINDAR",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/LV.gif",
+    "age": "26 years",
+    "team": "FURIA",
+    "majors": "6"
+  },
+  {
+    "username": "youka",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "21 years",
+    "team": "HOTU",
+    "majors": ""
+  },
+  {
+    "username": "yuurih",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "25 years",
+    "team": "FURIA",
+    "majors": "9"
+  },
+  {
+    "username": "xiELO",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "19 years",
+    "team": "PARIVISION",
+    "majors": ""
+  },
+  {
+    "username": "xKacpersky",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/PL.gif",
+    "age": "19 years",
+    "team": "Ninjas in Pyjamas",
+    "majors": ""
+  },
+  {
+    "username": "xertioN",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/IL.gif",
+    "age": "21 years",
+    "team": "MOUZ",
+    "majors": "5"
+  },
+  {
+    "username": "xfl0ud",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/TR.gif",
+    "age": "22 years",
+    "team": "HEROIC",
+    "majors": "2"
+  },
+  {
+    "username": "XANTARES",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/TR.gif",
+    "age": "30 years",
+    "team": "Aurora",
+    "majors": "6"
+  },
+  {
+    "username": "xelex",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/HU.gif",
+    "age": "17 years",
+    "team": "MOUZ NXT",
+    "majors": ""
+  },
+  {
+    "username": "WOOD7",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "30 years",
+    "team": "ODDIK",
+    "majors": "2"
+  },
+  {
+    "username": "woxic",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/TR.gif",
+    "age": "27 years",
+    "team": "Aurora",
+    "majors": "6"
+  },
+  {
+    "username": "Xant3r",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "21 years",
+    "team": "Nemiga",
+    "majors": "1"
+  },
+  {
+    "username": "Westmelon",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/CN.gif",
+    "age": "24 years",
+    "team": "Lynn Vision",
+    "majors": "2"
+  },
+  {
+    "username": "Wicadia",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/TR.gif",
+    "age": "20 years",
+    "team": "Aurora",
+    "majors": "2"
+  },
+  {
+    "username": "volt",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RO.gif",
+    "age": "24 years",
+    "team": "500",
+    "majors": "3"
+  },
+  {
+    "username": "w0nderful",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UA.gif",
+    "age": "20 years",
+    "team": "Natus Vincere",
+    "majors": "4"
+  },
+  {
+    "username": "VINI",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "26 years",
+    "team": "Imperial",
+    "majors": "8"
+  },
+  {
+    "username": "Vexite",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/AU.gif",
+    "age": "21 years",
+    "team": "FlyQuest",
+    "majors": "4"
+  },
+  {
+    "username": "Twistzz",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/CA.gif",
+    "age": "25 years",
+    "team": "FaZe",
+    "majors": "10"
+  },
+  {
+    "username": "ultimate",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/PL.gif",
+    "age": "21 years",
+    "team": "Liquid",
+    "majors": "2"
+  },
+  {
+    "username": "venomzera",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "21 years",
+    "team": "RED Canids",
+    "majors": ""
+  },
+  {
+    "username": "try",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/AR.gif",
+    "age": "21 years",
+    "team": "Imperial",
+    "majors": "3"
+  },
+  {
+    "username": "TRAVIS",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "27 years",
+    "team": "AMKAL",
+    "majors": "1"
+  },
+  {
+    "username": "Topa",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "27 years",
+    "team": "paiN",
+    "majors": "1"
+  },
+  {
+    "username": "torzsi",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/HU.gif",
+    "age": "23 years",
+    "team": "MOUZ",
+    "majors": "5"
+  },
+  {
+    "username": "tO0RO",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "18 years",
+    "team": "Virtus.pro",
+    "majors": ""
+  },
+  {
+    "username": "tomaszin",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/AR.gif",
+    "age": "21 years",
+    "team": "BESTIA",
+    "majors": ""
+  },
+  {
+    "username": "tN1R",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BY.gif",
+    "age": "24 years",
+    "team": "Spirit",
+    "majors": "1"
+  },
+  {
+    "username": "Techno",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/MN.gif",
+    "age": "20 years",
+    "team": "The MongolZ",
+    "majors": "6"
+  },
+  {
+    "username": "TeSeS",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "24 years",
+    "team": "Falcons",
+    "majors": "7"
+  },
+  {
+    "username": "TMB",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "23 years",
+    "team": "ECSTATIC",
+    "majors": ""
+  },
+  {
+    "username": "TaZ",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/PL.gif",
+    "age": "39 years",
+    "team": "9INE",
+    "majors": "12"
+  },
+  {
+    "username": "syrsoN",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DE.gif",
+    "age": "26 years",
+    "team": "BIG",
+    "majors": "4"
+  },
+  {
+    "username": "tabseN",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DE.gif",
+    "age": "30 years",
+    "team": "BIG",
+    "majors": "9"
+  },
+  {
+    "username": "Tauson",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "20 years",
+    "team": "GamerLegion",
+    "majors": "1"
+  },
+  {
+    "username": "susp",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/SE.gif",
+    "age": "20 years",
+    "team": "Wildcard",
+    "majors": "2"
+  },
+  {
+    "username": "Swisher",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/US.gif",
+    "age": "27 years",
+    "team": "M80",
+    "majors": "1"
+  },
+  {
+    "username": "Summer",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/CN.gif",
+    "age": "28 years",
+    "team": "Rare Atom",
+    "majors": "5"
+  },
+  {
+    "username": "SunPayus",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/ES.gif",
+    "age": "26 years",
+    "team": "G2",
+    "majors": "4"
+  },
+  {
+    "username": "Stewie2K",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/US.gif",
+    "age": "27 years",
+    "team": "EG Black",
+    "majors": "7"
+  },
+  {
+    "username": "story",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/PT.gif",
+    "age": "23 years",
+    "team": "SAW",
+    "majors": "1"
+  },
+  {
+    "username": "stavn",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "23 years",
+    "team": "Astralis",
+    "majors": "4"
+  },
+  {
+    "username": "Staehr",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "21 years",
+    "team": "Astralis",
+    "majors": "1"
+  },
+  {
+    "username": "stanislaw",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/CA.gif",
+    "age": "31 years",
+    "team": "Wildcard",
+    "majors": "8"
+  },
+  {
+    "username": "Starry",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/CN.gif",
+    "age": "20 years",
+    "team": "Lynn Vision",
+    "majors": "2"
+  },
+  {
+    "username": "Spinx",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/IL.gif",
+    "age": "25 years",
+    "team": "MOUZ",
+    "majors": "7"
+  },
+  {
+    "username": "spooke",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/SE.gif",
+    "age": "24 years",
+    "team": "OG",
+    "majors": "1"
+  },
+  {
+    "username": "Sonic",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/ZA.gif",
+    "age": "26 years",
+    "team": "NRG",
+    "majors": "2"
+  },
+  {
+    "username": "sowalio",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "21 years",
+    "team": "Nemiga",
+    "majors": ""
+  },
+  {
+    "username": "SPELLAN",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/GB.gif",
+    "age": "28 years",
+    "team": "Endpoint",
+    "majors": "1"
+  },
+  {
+    "username": "snow",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "18 years",
+    "team": "paiN",
+    "majors": "2"
+  },
+  {
+    "username": "somebody",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/CN.gif",
+    "age": "28 years",
+    "team": "TYLOO",
+    "majors": "5"
+  },
+  {
+    "username": "Snappi",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "35 years",
+    "team": "Ninjas in Pyjamas",
+    "majors": "5"
+  },
+  {
+    "username": "Snax",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/PL.gif",
+    "age": "32 years",
+    "team": "9INE",
+    "majors": "16"
+  },
+  {
+    "username": "sl3nd",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/HU.gif",
+    "age": "21 years",
+    "team": "GamerLegion",
+    "majors": "1"
+  },
+  {
+    "username": "slaxz-",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DE.gif",
+    "age": "26 years",
+    "team": "M80",
+    "majors": "2"
+  },
+  {
+    "username": "skullz",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "23 years",
+    "team": "Imperial",
+    "majors": "2"
+  },
+  {
+    "username": "siuhy",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/PL.gif",
+    "age": "23 years",
+    "team": "Liquid",
+    "majors": "5"
+  },
+  {
+    "username": "sjuush",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "26 years",
+    "team": "Ninjas in Pyjamas",
+    "majors": "6"
+  },
+  {
+    "username": "Shr",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/PT.gif",
+    "age": "24 years",
+    "team": "Imperial",
+    "majors": ""
+  },
+  {
+    "username": "sirah",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "18 years",
+    "team": "ECSTATIC",
+    "majors": ""
+  },
+  {
+    "username": "Senzu",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/MN.gif",
+    "age": "19 years",
+    "team": "The MongolZ",
+    "majors": "3"
+  },
+  {
+    "username": "sh1ro",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "24 years",
+    "team": "Spirit",
+    "majors": "6"
+  },
+  {
+    "username": "SHiPZ",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UA.gif",
+    "age": "23 years",
+    "team": "B8",
+    "majors": "1"
+  },
+  {
+    "username": "sdy",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UA.gif",
+    "age": "28 years",
+    "team": "ENCE",
+    "majors": "5"
+  },
+  {
+    "username": "SaMey",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/PL.gif",
+    "age": "25 years",
+    "team": "ESC",
+    "majors": ""
+  },
+  {
+    "username": "sausol",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/ES.gif",
+    "age": "25 years",
+    "team": "Gentle Mates",
+    "majors": ""
+  },
+  {
+    "username": "Scr0b",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "21 years",
+    "team": "ALGO",
+    "majors": ""
+  },
+  {
+    "username": "saffee",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "30 years",
+    "team": "MIBR",
+    "majors": "6"
+  },
+  {
+    "username": "saadzin",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "21 years",
+    "team": "Legacy",
+    "majors": "1"
+  },
+  {
+    "username": "s1n",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DE.gif",
+    "age": "23 years",
+    "team": "M80",
+    "majors": "2"
+  },
+  {
+    "username": "S1ren",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "23 years",
+    "team": "BetBoom",
+    "majors": "3"
+  },
+  {
+    "username": "s-chilla",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DE.gif",
+    "age": "24 years",
+    "team": "BIG Academy",
+    "majors": "1"
+  },
+  {
+    "username": "s1mple",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UA.gif",
+    "age": "28 years",
+    "team": "BC.Game",
+    "majors": "14"
+  },
+  {
+    "username": "roman",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "31 years",
+    "team": "Retired",
+    "majors": "1"
+  },
+  {
+    "username": "roman",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "31 years",
+    "team": "Retired",
+    "majors": "1"
+  },
+  {
+    "username": "ropz",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/EE.gif",
+    "age": "25 years",
+    "team": "Vitality",
+    "majors": "11"
+  },
+  {
+    "username": "rikz",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "34 years",
+    "team": "paiN",
+    "majors": ""
+  },
+  {
+    "username": "riskyb0b",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "23 years",
+    "team": "Nemiga",
+    "majors": "1"
+  },
+  {
+    "username": "regali",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RO.gif",
+    "age": "23 years",
+    "team": "FlyQuest",
+    "majors": "1"
+  },
+  {
+    "username": "REZ",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/SE.gif",
+    "age": "27 years",
+    "team": "GamerLegion",
+    "majors": "7"
+  },
+  {
+    "username": "rigoN",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/CH.gif",
+    "age": "26 years",
+    "team": "ENCE",
+    "majors": "4"
+  },
+  {
+    "username": "Rainwaker",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BG.gif",
+    "age": "24 years",
+    "team": "500",
+    "majors": ""
+  },
+  {
+    "username": "reck",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/US.gif",
+    "age": "21 years",
+    "team": "SportsBetExpert",
+    "majors": "1"
+  },
+  {
+    "username": "raalz",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "30 years",
+    "team": "9INE",
+    "majors": "2"
+  },
+  {
+    "username": "rain",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/NO.gif",
+    "age": "31 years",
+    "team": "FaZe",
+    "majors": "19"
+  },
+  {
+    "username": "prosus",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DE.gif",
+    "age": "22 years",
+    "team": "BIG",
+    "majors": ""
+  },
+  {
+    "username": "Qikert",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/KZ.gif",
+    "age": "26 years",
+    "team": "MIBR",
+    "majors": "6"
+  },
+  {
+    "username": "r1nkle",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UA.gif",
+    "age": "20 years",
+    "team": "Ninjas in Pyjamas",
+    "majors": ""
+  },
+  {
+    "username": "Prism",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/PL.gif",
+    "age": "27 years",
+    "team": "Betclic",
+    "majors": ""
+  },
+  {
+    "username": "podi",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/FI.gif",
+    "age": "21 years",
+    "team": "ENCE",
+    "majors": ""
+  },
+  {
+    "username": "PR",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/CZ.gif",
+    "age": "18 years",
+    "team": "GamerLegion",
+    "majors": ""
+  },
+  {
+    "username": "pr1metapz",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DE.gif",
+    "age": "24 years",
+    "team": "BC.Game",
+    "majors": ""
+  },
+  {
+    "username": "phzy",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/SE.gif",
+    "age": "23 years",
+    "team": "Wildcard",
+    "majors": "2"
+  },
+  {
+    "username": "pancc",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "27 years",
+    "team": "ODDIK",
+    "majors": "1"
+  },
+  {
+    "username": "Peeping",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/US.gif",
+    "age": "20 years",
+    "team": "Wildcard",
+    "majors": ""
+  },
+  {
+    "username": "Perfecto",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "25 years",
+    "team": "Virtus.pro",
+    "majors": "6"
+  },
+  {
+    "username": "onic",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UA.gif",
+    "age": "20 years",
+    "team": "Inner Circle",
+    "majors": ""
+  },
+  {
+    "username": "oxygeN",
+    "flag_url": "",
+    "age": "",
+    "team": "",
+    "majors": ""
+  },
+  {
+    "username": "nqz",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "20 years",
+    "team": "paiN",
+    "majors": "4"
+  },
+  {
+    "username": "nut nut",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "19 years",
+    "team": "ECSTATIC",
+    "majors": ""
+  },
+  {
+    "username": "nyezin",
+    "flag_url": "",
+    "age": "",
+    "team": "",
+    "majors": ""
+  },
+  {
+    "username": "nython",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "28 years",
+    "team": "Galorys",
+    "majors": ""
+  },
+  {
+    "username": "npl",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UA.gif",
+    "age": "20 years",
+    "team": "B8",
+    "majors": "2"
+  },
+  {
+    "username": "nota",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "18 years",
+    "team": "PARIVISION",
+    "majors": ""
+  },
+  {
+    "username": "noway",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "20 years",
+    "team": "Imperial",
+    "majors": "3"
+  },
+  {
+    "username": "nilo",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/SE.gif",
+    "age": "20 years",
+    "team": "HEROIC",
+    "majors": ""
+  },
+  {
+    "username": "Nivera",
+    "flag_url": "",
+    "age": "",
+    "team": "",
+    "majors": ""
+  },
+  {
+    "username": "Noktse",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/AR.gif",
+    "age": "32 years",
+    "team": "BESTIA",
+    "majors": ""
+  },
+  {
+    "username": "NiKo",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BA.gif",
+    "age": "28 years",
+    "team": "Falcons",
+    "majors": "15"
+  },
+  {
+    "username": "nifee",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UA.gif",
+    "age": "21 years",
+    "team": "Inner Circle",
+    "majors": ""
+  },
+  {
+    "username": "nicks",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "20 years",
+    "team": "MIBR",
+    "majors": ""
+  },
+  {
+    "username": "nicoodoz",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "25 years",
+    "team": "OG",
+    "majors": "6"
+  },
+  {
+    "username": "nicx",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/US.gif",
+    "age": "20 years",
+    "team": "Passion UA",
+    "majors": "1"
+  },
+  {
+    "username": "nettik",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/NZ.gif",
+    "age": "22 years",
+    "team": "FlyQuest",
+    "majors": "1"
+  },
+  {
+    "username": "nexa",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RS.gif",
+    "age": "28 years",
+    "team": "BC.Game",
+    "majors": "4"
+  },
+  {
+    "username": "NertZ",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/IL.gif",
+    "age": "26 years",
+    "team": "Liquid",
+    "majors": "4"
+  },
+  {
+    "username": "nawwk",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/SE.gif",
+    "age": "27 years",
+    "team": "m1x",
+    "majors": "3"
+  },
+  {
+    "username": "naz",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/AR.gif",
+    "age": "25 years",
+    "team": "ShindeN",
+    "majors": ""
+  },
+  {
+    "username": "Neityu",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/FR.gif",
+    "age": "20 years",
+    "team": "ENCE",
+    "majors": ""
+  },
+  {
+    "username": "naitte",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "27 years",
+    "team": "ODDIK",
+    "majors": ""
+  },
+  {
+    "username": "n1ssim",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "24 years",
+    "team": "Legacy",
+    "majors": "2"
+  },
+  {
+    "username": "NAF",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/CA.gif",
+    "age": "27 years",
+    "team": "Liquid",
+    "majors": "12"
+  },
+  {
+    "username": "nafany",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "24 years",
+    "team": "AMKAL",
+    "majors": "3"
+  },
+  {
+    "username": "mzinho",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/MN.gif",
+    "age": "18 years",
+    "team": "The MongolZ",
+    "majors": "3"
+  },
+  {
+    "username": "n0rb3r7",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "24 years",
+    "team": "HOTU",
+    "majors": "4"
+  },
+  {
+    "username": "myltsi",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/FI.gif",
+    "age": "21 years",
+    "team": "ENCE",
+    "majors": ""
+  },
+  {
+    "username": "Moseyuh",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/CN.gif",
+    "age": "20 years",
+    "team": "TYLOO",
+    "majors": "1"
+  },
+  {
+    "username": "MUTiRiS",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/PT.gif",
+    "age": "32 years",
+    "team": "SAW",
+    "majors": "1"
+  },
+  {
+    "username": "mopoz",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/ES.gif",
+    "age": "29 years",
+    "team": "Gentle Mates",
+    "majors": "2"
+  },
+  {
+    "username": "molodoy",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/KZ.gif",
+    "age": "20 years",
+    "team": "FURIA",
+    "majors": "1"
+  },
+  {
+    "username": "mizu",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "21 years",
+    "team": "HOTU",
+    "majors": ""
+  },
+  {
+    "username": "MoDo",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RO.gif",
+    "age": "22 years",
+    "team": "9INE",
+    "majors": ""
+  },
+  {
+    "username": "mir",
+    "flag_url": "",
+    "age": "",
+    "team": "",
+    "majors": "5"
+  },
+  {
+    "username": "MisteM",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/ZA.gif",
+    "age": "23 years",
+    "team": "Young Ninjas",
+    "majors": ""
+  },
+  {
+    "username": "mezii",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/GB.gif",
+    "age": "27 years",
+    "team": "Vitality",
+    "majors": "5"
+  },
+  {
+    "username": "max",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UY.gif",
+    "age": "26 years",
+    "team": "9z",
+    "majors": "2"
+  },
+  {
+    "username": "Mercury",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/CN.gif",
+    "age": "24 years",
+    "team": "TYLOO",
+    "majors": "1"
+  },
+  {
+    "username": "MartinezSa",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/ES.gif",
+    "age": "24 years",
+    "team": "Gentle Mates",
+    "majors": ""
+  },
+  {
+    "username": "matios",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "23 years",
+    "team": "ODDIK",
+    "majors": ""
+  },
+  {
+    "username": "MATYS",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/SK.gif",
+    "age": "23 years",
+    "team": "G2",
+    "majors": "1"
+  },
+  {
+    "username": "makazze",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/XK.gif",
+    "age": "18 years",
+    "team": "Natus Vincere",
+    "majors": ""
+  },
+  {
+    "username": "malbsMd",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/GT.gif",
+    "age": "23 years",
+    "team": "G2",
+    "majors": "2"
+  },
+  {
+    "username": "Magnojez",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "21 years",
+    "team": "BetBoom",
+    "majors": "1"
+  },
+  {
+    "username": "MAJ3R",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/TR.gif",
+    "age": "34 years",
+    "team": "Aurora",
+    "majors": "4"
+  },
+  {
+    "username": "Maka",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/FR.gif",
+    "age": "28 years",
+    "team": "3DMAX",
+    "majors": "2"
+  },
+  {
+    "username": "magixx",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "22 years",
+    "team": "Spirit",
+    "majors": "6"
+  },
+  {
+    "username": "Maden",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/ME.gif",
+    "age": "26 years",
+    "team": "Zero Tenacity",
+    "majors": "3"
+  },
+  {
+    "username": "Magisk",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "27 years",
+    "team": "Astralis",
+    "majors": "10"
+  },
+  {
+    "username": "lux",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "23 years",
+    "team": "Legacy",
+    "majors": "3"
+  },
+  {
+    "username": "m0NESY",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "20 years",
+    "team": "Falcons",
+    "majors": "5"
+  },
+  {
+    "username": "Lucky",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/FR.gif",
+    "age": "27 years",
+    "team": "3DMAX",
+    "majors": "4"
+  },
+  {
+    "username": "Luken",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/AR.gif",
+    "age": "28 years",
+    "team": "9z",
+    "majors": "1"
+  },
+  {
+    "username": "Lucaozy",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "24 years",
+    "team": "Fluxo",
+    "majors": "4"
+  },
+  {
+    "username": "luchov",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/AR.gif",
+    "age": "24 years",
+    "team": "BESTIA",
+    "majors": ""
+  },
+  {
+    "username": "LNZ",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/SE.gif",
+    "age": "23 years",
+    "team": "HEROIC",
+    "majors": "2"
+  },
+  {
+    "username": "Liazz",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/AU.gif",
+    "age": "28 years",
+    "team": "THUNDER dOWNUNDER",
+    "majors": "7"
+  },
+  {
+    "username": "latto",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "22 years",
+    "team": "Legacy",
+    "majors": "4"
+  },
+  {
+    "username": "lauNX",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RO.gif",
+    "age": "20 years",
+    "team": "FUT",
+    "majors": "1"
+  },
+  {
+    "username": "Lake",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/US.gif",
+    "age": "20 years",
+    "team": "M80",
+    "majors": "1"
+  },
+  {
+    "username": "lampada",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "21 years",
+    "team": "HOTU",
+    "majors": ""
+  },
+  {
+    "username": "L1haNg",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/CN.gif",
+    "age": "21 years",
+    "team": "Rare Atom",
+    "majors": "1"
+  },
+  {
+    "username": "kyxsan",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/MK.gif",
+    "age": "25 years",
+    "team": "Falcons",
+    "majors": "4"
+  },
+  {
+    "username": "kyuubii",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DE.gif",
+    "age": "20 years",
+    "team": "BIG Academy",
+    "majors": ""
+  },
+  {
+    "username": "Kursy",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/FR.gif",
+    "age": "24 years",
+    "team": "GamerLegion",
+    "majors": ""
+  },
+  {
+    "username": "Kvem",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UA.gif",
+    "age": "24 years",
+    "team": "Passion UA",
+    "majors": ""
+  },
+  {
+    "username": "kyousuke",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "17 years",
+    "team": "Falcons",
+    "majors": ""
+  },
+  {
+    "username": "ksloks",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "20 years",
+    "team": "ODDIK",
+    "majors": ""
+  },
+  {
+    "username": "KRIMZ",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/SE.gif",
+    "age": "31 years",
+    "team": "fnatic",
+    "majors": "17"
+  },
+  {
+    "username": "Kristou",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "23 years",
+    "team": "CPH Wolves",
+    "majors": ""
+  },
+  {
+    "username": "KSCERATO",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "26 years",
+    "team": "FURIA",
+    "majors": "9"
+  },
+  {
+    "username": "krazy",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/PT.gif",
+    "age": "21 years",
+    "team": "SAW",
+    "majors": ""
+  },
+  {
+    "username": "Krimbo",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DE.gif",
+    "age": "23 years",
+    "team": "BIG",
+    "majors": "3"
+  },
+  {
+    "username": "Krabeni",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/XK.gif",
+    "age": "20 years",
+    "team": "FUT",
+    "majors": ""
+  },
+  {
+    "username": "kraghen",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "23 years",
+    "team": "9INE",
+    "majors": "1"
+  },
+  {
+    "username": "kRaSnaL",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/PL.gif",
+    "age": "22 years",
+    "team": "ex-Inner Circle",
+    "majors": "1"
+  },
+  {
+    "username": "khaN",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/KZ.gif",
+    "age": "22 years",
+    "team": "Nemiga",
+    "majors": "1"
+  },
+  {
+    "username": "kensizor",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UA.gif",
+    "age": "19 years",
+    "team": "B8",
+    "majors": "1"
+  },
+  {
+    "username": "kauez",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "22 years",
+    "team": "RED Canids",
+    "majors": "2"
+  },
+  {
+    "username": "kaze",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/MY.gif",
+    "age": "31 years",
+    "team": "Rare Atom",
+    "majors": "3"
+  },
+  {
+    "username": "KEi",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/PL.gif",
+    "age": "24 years",
+    "team": "ex-Inner Circle",
+    "majors": "1"
+  },
+  {
+    "username": "KaiR0N-",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "21 years",
+    "team": "AMKAL",
+    "majors": ""
+  },
+  {
+    "username": "karrigan",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "35 years",
+    "team": "FaZe",
+    "majors": "20"
+  },
+  {
+    "username": "junior",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/US.gif",
+    "age": "24 years",
+    "team": "SkinRave",
+    "majors": "2"
+  },
+  {
+    "username": "k1to",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DE.gif",
+    "age": "26 years",
+    "team": "AM",
+    "majors": "2"
+  },
+  {
+    "username": "kade0",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/KZ.gif",
+    "age": "25 years",
+    "team": "HOTU",
+    "majors": ""
+  },
+  {
+    "username": "jottAAA",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/TR.gif",
+    "age": "23 years",
+    "team": "Aurora",
+    "majors": "1"
+  },
+  {
+    "username": "JT",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/ZA.gif",
+    "age": "26 years",
+    "team": "Passion UA",
+    "majors": "5"
+  },
+  {
+    "username": "jocab",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/SE.gif",
+    "age": "20 years",
+    "team": "Young Ninjas",
+    "majors": ""
+  },
+  {
+    "username": "jkaem",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/NO.gif",
+    "age": "31 years",
+    "team": "BC.Game",
+    "majors": "9"
+  },
+  {
+    "username": "jks",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/AU.gif",
+    "age": "29 years",
+    "team": "FlyQuest",
+    "majors": "9"
+  },
+  {
+    "username": "jL",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/LT.gif",
+    "age": "26 years",
+    "team": "Natus Vincere",
+    "majors": "4"
+  },
+  {
+    "username": "Jimpphat",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/FI.gif",
+    "age": "19 years",
+    "team": "MOUZ",
+    "majors": "3"
+  },
+  {
+    "username": "JDC",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DE.gif",
+    "age": "25 years",
+    "team": "BIG",
+    "majors": "3"
+  },
+  {
+    "username": "Jee",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/CN.gif",
+    "age": "20 years",
+    "team": "TYLOO",
+    "majors": "2"
+  },
+  {
+    "username": "JamYoung",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/CN.gif",
+    "age": "24 years",
+    "team": "TYLOO",
+    "majors": "1"
+  },
+  {
+    "username": "JBa",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/US.gif",
+    "age": "21 years",
+    "team": "Wildcard",
+    "majors": "2"
+  },
+  {
+    "username": "jcobbb",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/PL.gif",
+    "age": "21 years",
+    "team": "FaZe",
+    "majors": ""
+  },
+  {
+    "username": "jambo",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UA.gif",
+    "age": "21 years",
+    "team": "fnatic",
+    "majors": "1"
+  },
+  {
+    "username": "Jame",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "27 years",
+    "team": "PARIVISION",
+    "majors": "8"
+  },
+  {
+    "username": "JACKZ",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/FR.gif",
+    "age": "33 years",
+    "team": "Mousquetaires",
+    "majors": "4"
+  },
+  {
+    "username": "jabbi",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "22 years",
+    "team": "Astralis",
+    "majors": "4"
+  },
+  {
+    "username": "jackasmo",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UA.gif",
+    "age": "18 years",
+    "team": "fnatic",
+    "majors": "1"
+  },
+  {
+    "username": "interz",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "25 years",
+    "team": "1win",
+    "majors": "4"
+  },
+  {
+    "username": "isak",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/SE.gif",
+    "age": "24 years",
+    "team": "Metizport",
+    "majors": "4"
+  },
+  {
+    "username": "iM",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RO.gif",
+    "age": "26 years",
+    "team": "Natus Vincere",
+    "majors": "5"
+  },
+  {
+    "username": "INS",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/AU.gif",
+    "age": "27 years",
+    "team": "FlyQuest",
+    "majors": "6"
+  },
+  {
+    "username": "insani",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "21 years",
+    "team": "MIBR",
+    "majors": "2"
+  },
+  {
+    "username": "hyped",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DE.gif",
+    "age": "24 years",
+    "team": "BIG",
+    "majors": ""
+  },
+  {
+    "username": "hypex",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/PL.gif",
+    "age": "21 years",
+    "team": "GamerLegion",
+    "majors": ""
+  },
+  {
+    "username": "ICY",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/KZ.gif",
+    "age": "20 years",
+    "team": "Virtus.pro",
+    "majors": "3"
+  },
+  {
+    "username": "HUASOPEEK",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/CL.gif",
+    "age": "22 years",
+    "team": "9z",
+    "majors": ""
+  },
+  {
+    "username": "huNter-",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BA.gif",
+    "age": "29 years",
+    "team": "G2",
+    "majors": "7"
+  },
+  {
+    "username": "hfah",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/PL.gif",
+    "age": "19 years",
+    "team": "Venom",
+    "majors": ""
+  },
+  {
+    "username": "HooXi",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "30 years",
+    "team": "Astralis",
+    "majors": "4"
+  },
+  {
+    "username": "HEN1",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "30 years",
+    "team": "RED Canids",
+    "majors": "2"
+  },
+  {
+    "username": "HexT",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/CA.gif",
+    "age": "23 years",
+    "team": "M80",
+    "majors": "2"
+  },
+  {
+    "username": "headtr1ck",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UA.gif",
+    "age": "21 years",
+    "team": "B8",
+    "majors": "2"
+  },
+  {
+    "username": "HeavyGod",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/IL.gif",
+    "age": "23 years",
+    "team": "G2",
+    "majors": "2"
+  },
+  {
+    "username": "hallzerk",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/NO.gif",
+    "age": "25 years",
+    "team": "Passion UA",
+    "majors": "3"
+  },
+  {
+    "username": "Grim",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/US.gif",
+    "age": "24 years",
+    "team": "Passion UA",
+    "majors": "6"
+  },
+  {
+    "username": "hades",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/PL.gif",
+    "age": "25 years",
+    "team": "ex-Inner Circle",
+    "majors": "5"
+  },
+  {
+    "username": "gr1ks",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BY.gif",
+    "age": "19 years",
+    "team": "BIG",
+    "majors": ""
+  },
+  {
+    "username": "Graviti",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/FR.gif",
+    "age": "21 years",
+    "team": "3DMAX",
+    "majors": "2"
+  },
+  {
+    "username": "gla1ve",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "30 years",
+    "team": "ENCE",
+    "majors": "14"
+  },
+  {
+    "username": "frontales",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "23 years",
+    "team": "HOTU",
+    "majors": ""
+  },
+  {
+    "username": "frozen",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/SK.gif",
+    "age": "23 years",
+    "team": "FaZe",
+    "majors": "7"
+  },
+  {
+    "username": "Flierax",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UA.gif",
+    "age": "19 years",
+    "team": "Inner Circle",
+    "majors": ""
+  },
+  {
+    "username": "floppy",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/US.gif",
+    "age": "27 years",
+    "team": "M80",
+    "majors": "4"
+  },
+  {
+    "username": "flameZ",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/IL.gif",
+    "age": "22 years",
+    "team": "Vitality",
+    "majors": "5"
+  },
+  {
+    "username": "felps",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "28 years",
+    "team": "paiN",
+    "majors": "7"
+  },
+  {
+    "username": "FL1T",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "24 years",
+    "team": "Virtus.pro",
+    "majors": "7"
+  },
+  {
+    "username": "FL4MUS",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "21 years",
+    "team": "Virtus.pro",
+    "majors": "2"
+  },
+  {
+    "username": "fear",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UA.gif",
+    "age": "24 years",
+    "team": "fnatic",
+    "majors": "1"
+  },
+  {
+    "username": "fame",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "22 years",
+    "team": "Virtus.pro",
+    "majors": "4"
+  },
+  {
+    "username": "faveN",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DE.gif",
+    "age": "25 years",
+    "team": "9INE",
+    "majors": "1"
+  },
+  {
+    "username": "F1KU",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/PL.gif",
+    "age": "22 years",
+    "team": "Wildcard",
+    "majors": "3"
+  },
+  {
+    "username": "FalleN",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "34 years",
+    "team": "FURIA",
+    "majors": "17"
+  },
+  {
+    "username": "exit",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "29 years",
+    "team": "MIBR",
+    "majors": "3"
+  },
+  {
+    "username": "ewjerkz",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/PT.gif",
+    "age": "25 years",
+    "team": "Ninjas in Pyjamas",
+    "majors": "1"
+  },
+  {
+    "username": "Ex3rcice",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/FR.gif",
+    "age": "25 years",
+    "team": "3DMAX",
+    "majors": "2"
+  },
+  {
+    "username": "EliGE",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/US.gif",
+    "age": "28 years",
+    "team": "Liquid",
+    "majors": "15"
+  },
+  {
+    "username": "EmiliaQAQ",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/CN.gif",
+    "age": "21 years",
+    "team": "Lynn Vision",
+    "majors": "2"
+  },
+  {
+    "username": "esenthial",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UA.gif",
+    "age": "19 years",
+    "team": "B8",
+    "majors": "1"
+  },
+  {
+    "username": "electroNic",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "27 years",
+    "team": "BC.Game",
+    "majors": "13"
+  },
+  {
+    "username": "dupreeh",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "32 years",
+    "team": "Preasy",
+    "majors": "19"
+  },
+  {
+    "username": "dycha",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/PL.gif",
+    "age": "28 years",
+    "team": "Betclic",
+    "majors": "5"
+  },
+  {
+    "username": "dziugss",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/LT.gif",
+    "age": "17 years",
+    "team": "FUT",
+    "majors": ""
+  },
+  {
+    "username": "dumau",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "21 years",
+    "team": "Legacy",
+    "majors": "4"
+  },
+  {
+    "username": "drop",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "21 years",
+    "team": "RED Canids",
+    "majors": "5"
+  },
+  {
+    "username": "dukefissura",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/KZ.gif",
+    "age": "29 years",
+    "team": "HOTU",
+    "majors": ""
+  },
+  {
+    "username": "Djoko",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/FR.gif",
+    "age": "28 years",
+    "team": "GenOne",
+    "majors": "1"
+  },
+  {
+    "username": "donk",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "18 years",
+    "team": "Spirit",
+    "majors": "3"
+  },
+  {
+    "username": "dgt",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UY.gif",
+    "age": "24 years",
+    "team": "paiN",
+    "majors": "3"
+  },
+  {
+    "username": "dexter",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/AU.gif",
+    "age": "31 years",
+    "team": "THUNDER dOWNUNDER",
+    "majors": "6"
+  },
+  {
+    "username": "device",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "30 years",
+    "team": "Astralis",
+    "majors": "16"
+  },
+  {
+    "username": "DemQQ",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UA.gif",
+    "age": "24 years",
+    "team": "Passion UA",
+    "majors": "1"
+  },
+  {
+    "username": "Demho",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/PL.gif",
+    "age": "24 years",
+    "team": "Betclic",
+    "majors": ""
+  },
+  {
+    "username": "dem0n",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UA.gif",
+    "age": "18 years",
+    "team": "FUT",
+    "majors": ""
+  },
+  {
+    "username": "decenty",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "21 years",
+    "team": "Fluxo",
+    "majors": "3"
+  },
+  {
+    "username": "deemO",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/NO.gif",
+    "age": "24 years",
+    "team": "ECSTATIC",
+    "majors": "1"
+  },
+  {
+    "username": "degster",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "24 years",
+    "team": "Falcons",
+    "majors": "5"
+  },
+  {
+    "username": "dav1g",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/ES.gif",
+    "age": "24 years",
+    "team": "Gentle Mates",
+    "majors": "2"
+  },
+  {
+    "username": "Dawy",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UA.gif",
+    "age": "18 years",
+    "team": "Inner Circle",
+    "majors": ""
+  },
+  {
+    "username": "d1Ledez",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "22 years",
+    "team": "BetBoom",
+    "majors": ""
+  },
+  {
+    "username": "dav1deuS",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/CL.gif",
+    "age": "25 years",
+    "team": "paiN",
+    "majors": "3"
+  },
+  {
+    "username": "CYPHER",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/GB.gif",
+    "age": "22 years",
+    "team": "fnatic",
+    "majors": "1"
+  },
+  {
+    "username": "coldzera",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "30 years",
+    "team": "ODDIK",
+    "majors": "11"
+  },
+  {
+    "username": "cptkurtka023",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UA.gif",
+    "age": "26 years",
+    "team": "kONO",
+    "majors": ""
+  },
+  {
+    "username": "Cxzi",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/US.gif",
+    "age": "25 years",
+    "team": "Marsborne",
+    "majors": "1"
+  },
+  {
+    "username": "cmtry",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UA.gif",
+    "age": "18 years",
+    "team": "FUT",
+    "majors": ""
+  },
+  {
+    "username": "chopper",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "28 years",
+    "team": "Spirit",
+    "majors": "10"
+  },
+  {
+    "username": "Chr1zN",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "19 years",
+    "team": "OG",
+    "majors": "1"
+  },
+  {
+    "username": "chelo",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "27 years",
+    "team": "Imperial",
+    "majors": "5"
+  },
+  {
+    "username": "ChildKing",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/CN.gif",
+    "age": "25 years",
+    "team": "Rare Atom",
+    "majors": "1"
+  },
+  {
+    "username": "chayJESUS",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "24 years",
+    "team": "RED Canids",
+    "majors": "1"
+  },
+  {
+    "username": "cej0t",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/PL.gif",
+    "age": "18 years",
+    "team": "9INE",
+    "majors": ""
+  },
+  {
+    "username": "CeRq",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BG.gif",
+    "age": "25 years",
+    "team": "500",
+    "majors": "4"
+  },
+  {
+    "username": "cairne",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UA.gif",
+    "age": "22 years",
+    "team": "Inner Circle",
+    "majors": ""
+  },
+  {
+    "username": "Calyx",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/TR.gif",
+    "age": "27 years",
+    "team": "Eternal Fire",
+    "majors": "4"
+  },
+  {
+    "username": "cadiaN",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "30 years",
+    "team": "Heroic",
+    "majors": "8"
+  },
+  {
+    "username": "CacaNito",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/MK.gif",
+    "age": "24 years",
+    "team": "BC.Game",
+    "majors": "1"
+  },
+  {
+    "username": "Burmylov",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UA.gif",
+    "age": "18 years",
+    "team": "kONO",
+    "majors": ""
+  },
+  {
+    "username": "Buzz",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "22 years",
+    "team": "OG",
+    "majors": "1"
+  },
+  {
+    "username": "C4LLM3SU3",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/CN.gif",
+    "age": "21 years",
+    "team": "Lynn Vision",
+    "majors": "1"
+  },
+  {
+    "username": "buda",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/AR.gif",
+    "age": "22 years",
+    "team": "KRÜ",
+    "majors": "1"
+  },
+  {
+    "username": "broky",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/LV.gif",
+    "age": "24 years",
+    "team": "FaZe",
+    "majors": "6"
+  },
+  {
+    "username": "Brollan",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/SE.gif",
+    "age": "23 years",
+    "team": "MOUZ",
+    "majors": "7"
+  },
+  {
+    "username": "Boombl4",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "26 years",
+    "team": "BetBoom",
+    "majors": "9"
+  },
+  {
+    "username": "br0",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "23 years",
+    "team": "NRG",
+    "majors": "1"
+  },
+  {
+    "username": "brnz4n",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "22 years",
+    "team": "MIBR",
+    "majors": "1"
+  },
+  {
+    "username": "bodyy",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/FR.gif",
+    "age": "28 years",
+    "team": "3DMAX",
+    "majors": "8"
+  },
+  {
+    "username": "biguzera",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BR.gif",
+    "age": "28 years",
+    "team": "paiN",
+    "majors": "5"
+  },
+  {
+    "username": "blameF",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "28 years",
+    "team": "fnatic",
+    "majors": "2"
+  },
+  {
+    "username": "bLitz",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/MN.gif",
+    "age": "24 years",
+    "team": "The MongolZ",
+    "majors": "6"
+  },
+  {
+    "username": "BELCHONOKK",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "21 years",
+    "team": "PARIVISION",
+    "majors": ""
+  },
+  {
+    "username": "b1t",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UA.gif",
+    "age": "22 years",
+    "team": "Natus Vincere",
+    "majors": "7"
+  },
+  {
+    "username": "Ax1Le",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "23 years",
+    "team": "BetBoom",
+    "majors": "6"
+  },
+  {
+    "username": "AZUWU",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/GB.gif",
+    "age": "21 years",
+    "team": "Monte",
+    "majors": ""
+  },
+  {
+    "username": "Attacker",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/CN.gif",
+    "age": "28 years",
+    "team": "TYLOO",
+    "majors": "5"
+  },
+  {
+    "username": "AW",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "19 years",
+    "team": "PARIVISION",
+    "majors": ""
+  },
+  {
+    "username": "arrozdoce",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/PT.gif",
+    "age": "23 years",
+    "team": "OG",
+    "majors": "1"
+  },
+  {
+    "username": "ArtFr0st",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+    "age": "23 years",
+    "team": "BetBoom",
+    "majors": ""
+  },
+  {
+    "username": "Anlelele",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "24 years",
+    "team": "ECSTATIC",
+    "majors": ""
+  },
+  {
+    "username": "apEX",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/FR.gif",
+    "age": "32 years",
+    "team": "Vitality",
+    "majors": "20"
+  },
+  {
+    "username": "aragornN",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/PT.gif",
+    "age": "23 years",
+    "team": "SAW",
+    "majors": ""
+  },
+  {
+    "username": "aliStair",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/AU.gif",
+    "age": "27 years",
+    "team": "THUNDER dOWNUNDER",
+    "majors": "5"
+  },
+  {
+    "username": "Alkaren",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/KZ.gif",
+    "age": "18 years",
+    "team": "HEROIC",
+    "majors": ""
+  },
+  {
+    "username": "Aleksib",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/FI.gif",
+    "age": "28 years",
+    "team": "Natus Vincere",
+    "majors": "8"
+  },
+  {
+    "username": "alex",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/ES.gif",
+    "age": "29 years",
+    "team": "Gentle Mates",
+    "majors": "1"
+  },
+  {
+    "username": "alex666",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/UA.gif",
+    "age": "24 years",
+    "team": "B8",
+    "majors": "1"
+  },
+  {
+    "username": "adamb",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/SE.gif",
+    "age": "20 years",
+    "team": "OG",
+    "majors": "1"
+  },
+  {
+    "username": "Ag1l",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/PT.gif",
+    "age": "22 years",
+    "team": "SAW",
+    "majors": ""
+  },
+  {
+    "username": "910",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/MN.gif",
+    "age": "23 years",
+    "team": "The MongolZ",
+    "majors": "3"
+  },
+  {
+    "username": "acoR",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+    "age": "28 years",
+    "team": "ECSTATIC",
+    "majors": "4"
+  },
+  {
+    "username": "1eeR",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/BY.gif",
+    "age": "23 years",
+    "team": "Nemiga",
+    "majors": "1"
   }
 ]

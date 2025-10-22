@@ -1,212 +1,259 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documentation API CS2 Players</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/atom-one-dark.min.css"
-    />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/json.min.js"></script>
-  </head>
-  <body>
-    <nav>
-      <div class="nav-content">
-        <h1>CS2 Players API</h1>
-        <ul>
-          <li><a href="#introduction">Introduction</a></li>
-          <li><a href="#endpoints">Endpoints</a></li>
-          <li><a href="#exemples">Exemples</a></li>
-          <li><a href="#test">Tester l'API</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <main>
-      <section id="introduction">
-        <h2>Introduction</h2>
-        <p>
-          L'API CS2 Players fournit des informations détaillées sur les joueurs
-          professionnels de Counter-Strike 2. Elle permet d'accéder aux données
-          des joueurs, leurs équipes, et plus encore.
-        </p>
-        <div class="info-box">
-          <p>
-            <strong>URL de base :</strong>
-            <code>https://cs2-api.onrender.com/api</code>
-          </p>
-          <p><strong>Format de réponse :</strong> JSON</p>
-        </div>
-      </section>
-
-      <section id="endpoints">
-        <h2>Endpoints</h2>
-
-        <div class="endpoint">
-          <h3>Liste des joueurs</h3>
-          <div class="method get">GET</div>
-          <code>/players</code>
-          <p>Récupère la liste complète des joueurs.</p>
-          <div class="response">
-            <h4>Réponse</h4>
-            <pre><code class="language-json">[
-  {
-    "id": "donk",
-    "nickname": "donk",
-    "team": "Team Spirit",
-    "nationality": "/images/flags/ru.svg",
-    "age": 18,
-    "trophies": 8,
-    "kd": 1.35
-  },
-  {
-    "id": "zywoo",
-    "nickname": "ZywOo",
-    "team": "Team Vitality",
-    "nationality": "/images/flags/fr.svg",
-    "age": 23,
-    "trophies": 15,
-    "kd": 1.27
-  },
-  ...
-]</code></pre>
-          </div>
-        </div>
-
-        <div class="endpoint">
-          <h3>Joueur spécifique</h3>
-          <div class="method get">GET</div>
-          <code>/players/{idPlayer}</code>
-          <p>Récupère les informations d'un joueur spécifique.</p>
-          <div class="response">
-            <h4>Réponse</h4>
-            <pre><code class="language-json">{
-  "id": "donk",
-  "nickname": "donk",
-  "team": "Team Spirit",
-  "nationality": "/images/flags/ru.svg",
-  "age": 18,
-  "trophies": 8,
-  "kd": 1.35
-}</code></pre>
-          </div>
-        </div>
-
-        <div class="endpoint">
-          <h3>Liste des équipes</h3>
-          <div class="method get">GET</div>
-          <code>/teams</code>
-          <p>Récupère la liste de toutes les équipes.</p>
-          <div class="response">
-            <h4>Réponse</h4>
-            <pre><code class="language-json">[
-  "Team Spirit",
-  "FaZe Clan",
-  "Natus Vincere",
-  "Team Vitality",
-  "G2 Esports",
-  "MOUZ",
-  "Virtus.pro",
-  "Team Falcons"
-]</code></pre>
-          </div>
-        </div>
-
-        <div class="endpoint">
-          <h3>Joueurs d'une équipe</h3>
-          <div class="method get">GET</div>
-          <code>/teams/{team}/players</code>
-          <p>Récupère tous les joueurs d'une équipe spécifique.</p>
-          <div class="response">
-            <h4>Réponse</h4>
-            <pre><code class="language-json">[
-  {
-    "id": "donk",
-    "nickname": "donk",
-    "team": "Spirit",
-    ...
-  },
-  ...
-]</code></pre>
-          </div>
-        </div>
-
-        <div class="endpoint">
-          <h3>Recherche</h3>
-          <div class="method get">GET</div>
-          <code>/search?query={team or nickname}</code>
-          <p>Recherche des joueurs par nom ou équipe.</p>
-          <div class="response">
-            <h4>Réponse</h4>
-            <pre><code class="language-json">[
-  {
-    "id": "donk",
-    "nickname": "donk",
-    "team": "Spirit",
-    ...
-  },
-  ...
-]</code></pre>
-          </div>
-        </div>
-      </section>
-
-      <section id="exemples">
-        <h2>Exemples d'utilisation</h2>
-        <div class="example">
-          <h3>Exemple d'url</h3>
-          <pre><code class="language-bash"># Liste des joueurs
-https://cs2-api.onrender.com/api/players
-
-# Joueur spécifique
-https://cs2-api.onrender.com/api/players/donk
-
-# Joueurs d'une équipe
-https://cs2-api.onrender.com/api/teams/Spirit/players
-
-# Recherche
-https://cs2-api.onrender.com/api/search?query=donk</code></pre>
-        </div>
-      </section>
-
-      <section id="test">
-        <h2>Tester l'API</h2>
-        <div class="test-container">
-          <div class="test-form">
-            <div class="form-group">
-              <label for="custom-query">Entrez votre requête :</label>
-              <input
-                type="text"
-                id="custom-query"
-                placeholder="Ex: /players, /teams, /search?query=donk..."
-                onkeypress="handleKeyPress(event)"
-              />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo">
+                <h1>API CS2 Players</h1>
+                <p>Documentation complète des joueurs professionnels</p>
             </div>
-            <div class="form-group">
-              <div class="button-group">
-                <button onclick="testEndpoint()" class="test-button">
-                  Tester
-                </button>
-                <button onclick="clearResults()" class="clear-button">
-                  Effacer
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="test-result">
-            <div class="result-header">
-              <h3>Résultat</h3>
-              <span id="status-code"></span>
-            </div>
-            <pre><code id="result" class="language-json"></code></pre>
-          </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#endpoints">Endpoints</a></li>
+                    <li><a href="#data-structure">Structure des données</a></li>
+                    <li><a href="#examples">Exemples</a></li>
+                </ul>
+            </nav>
         </div>
-      </section>
-    </main>
+    </header>
 
-    <script src="./script.js"></script>
-  </body>
+    <div class="main-container">
+        <main class="main-content">
+                <section id="introduction">
+                    <h2>Introduction</h2>
+                    <p>Bienvenue dans la documentation de l'API CS2 Players. Cette API permet d'accéder aux statistiques des joueurs professionnels de Counter-Strike 2.</p>
+                </section>
+
+                <section id="base-url">
+                    <h2>URL de base</h2>
+                    <div class="code-block">
+                        <code>http://localhost:3000/api</code>
+                    </div>
+                </section>
+
+                <section id="endpoints">
+                    <h2>Endpoints</h2>
+
+                    <article id="get-players" class="endpoint">
+                        <div class="method get">GET</div>
+                        <h3>/players</h3>
+                        <p>Récupère la liste de tous les joueurs</p>
+                        
+                        <h4>Exemple de réponse</h4>
+                        <div class="code-block">
+                            <pre><code class="example-response" id="players-example">// Exemple de réponse
+[
+  {
+    "id": "1",
+    "username": "ZywOo",
+    "team": "Vitality",
+    "...": "..."
+  }
+]</code></pre>
+                            <button class="copy-btn" data-target="players-example">
+                                <i class="far fa-copy"></i> Copier
+                            </button>
+                        </div>
+                        <button class="try-btn" data-endpoint="players">
+                            <i class="fas fa-bolt"></i> Tester l'endpoint
+                        </button>
+                        <div class="response-section" id="players-response-section">
+                    <div class="response-header">
+                        <h5>Réponse de l'API</h5>
+                        <div class="response-actions">
+                            <span class="status-badge" id="players-status">Prêt</span>
+                            <button class="copy-btn small" data-target="players-response">
+                                <i class="far fa-copy"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="response-container">
+                        <pre><code id="players-response">// La réponse de l'API s'affichera ici</code></pre>
+                    </div>
+                </div>
+                    </article>
+
+                    <article id="get-player" class="endpoint">
+                        <div class="method get">GET</div>
+                        <h3>/players/<input type="text" id="player-id" value="1" class="param-input"></h3>
+                        <p>Récupère un joueur par son ID</p>
+                        
+                        <h4>Réponse</h4>
+                        <div class="code-block">
+                            <pre><code id="player-response">Chargement des données...</code></pre>
+                            <button class="copy-btn" data-target="player-response">
+                                <i class="far fa-copy"></i>
+                            </button>
+                        </div>
+                        <button class="try-btn" data-endpoint="player">Tester l'endpoint</button>
+                        <div class="response-section" id="player-response-section">
+                            <div class="response-header">
+                                <h5>Réponse de l'API</h5>
+                                <div class="response-actions">
+                                    <span class="status-badge" id="player-status">Prêt</span>
+                                    <button class="copy-btn small" data-target="player-response">
+                                        <i class="far fa-copy"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="response-container">
+                                <pre><code id="player-response">// La réponse de l'API s'affichera ici</code></pre>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article id="get-team" class="endpoint">
+                        <div class="method get">GET</div>
+                        <h3>/players/team/<input type="text" id="team-name" value="Vitality" class="param-input"></h3>
+                        <p>Récupère les joueurs d'une équipe spécifique</p>
+                        
+                        <h4>Réponse</h4>
+                        <div class="code-block">
+                            <pre><code id="team-response">Chargement des données...</code></pre>
+                            <button class="copy-btn" data-target="team-response">
+                                <i class="far fa-copy"></i>
+                            </button>
+                        </div>
+                        <button class="try-btn" data-endpoint="team">Tester l'endpoint</button>
+                        <div class="response-section" id="team-response-section">
+                            <div class="response-header">
+                                <h5>Réponse de l'API</h5>
+                                <div class="response-actions">
+                                    <span class="status-badge" id="team-status">Prêt</span>
+                                    <button class="copy-btn small" data-target="team-response">
+                                        <i class="far fa-copy"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="response-container">
+                                <pre><code id="team-response">// La réponse de l'API s'affichera ici</code></pre>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article id="get-teams" class="endpoint">
+                        <div class="method get">GET</div>
+                        <h3>/teams</h3>
+                        <p>Récupère la liste des équipes uniques</p>
+                        
+                        <h4>Réponse</h4>
+                        <div class="code-block">
+                            <pre><code id="teams-response">Chargement des données...</code></pre>
+                            <button class="copy-btn" data-target="teams-response">
+                                <i class="far fa-copy"></i>
+                            </button>
+                        </div>
+                        <button class="try-btn" data-endpoint="teams">Tester l'endpoint</button>
+                        <div class="response-section" id="teams-response-section">
+                            <div class="response-header">
+                                <h5>Réponse de l'API</h5>
+                                <div class="response-actions">
+                                    <span class="status-badge" id="teams-status">Prêt</span>
+                                    <button class="copy-btn small" data-target="teams-response">
+                                        <i class="far fa-copy"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="response-container">
+                                <pre><code id="teams-response">// La réponse de l'API s'affichera ici</code></pre>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+
+                <section id="data-structure">
+                    <h2>Structure des données</h2>
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Champ</th>
+                                    <th>Type</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>id</td>
+                                    <td>string</td>
+                                    <td>Identifiant unique du joueur</td>
+                                </tr>
+                                <tr>
+                                    <td>username</td>
+                                    <td>string</td>
+                                    <td>Pseudo du joueur</td>
+                                </tr>
+                                <tr>
+                                    <td>flag_url</td>
+                                    <td>string</td>
+                                    <td>URL du drapeau du pays du joueur</td>
+                                </tr>
+                                <tr>
+                                    <td>age</td>
+                                    <td>string</td>
+                                    <td>Âge du joueur</td>
+                                </tr>
+                                <tr>
+                                    <td>team</td>
+                                    <td>string</td>
+                                    <td>Équipe actuelle du joueur</td>
+                                </tr>
+                                <tr>
+                                    <td>majors</td>
+                                    <td>string</td>
+                                    <td>Nombre de majors remportés</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section id="examples">
+                    <h2>Exemples d'utilisation</h2>
+                    <h3>Avec JavaScript (fetch)</h3>
+                    <div class="code-block">
+                        <pre><code class="language-javascript">// Récupérer tous les joueurs
+fetch('http://localhost:3000/api/players')
+  .then(response => response.json())
+  .then(data => console.log(data));
+
+// Récupérer un joueur par ID
+fetch('http://localhost:3000/api/players/1')
+  .then(response => response.json())
+  .then(data => console.log(data));
+
+// Récupérer les joueurs d'une équipe
+fetch('http://localhost:3000/api/players/team/Vitality')
+  .then(response => response.json())
+  .then(data => console.log(data));
+
+// Récupérer la liste des équipes
+fetch('http://localhost:3000/api/teams')
+  .then(response => response.json())
+  .then(data => console.log(data));</code></pre>
+                        <button class="copy-btn" data-target="">
+                            <i class="far fa-copy"></i>
+                        </button>
+                    </div>
+                </section>
+                </section>
+            </main>
+        </div>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p>© 2023 API CS2 Players - Documentation</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>

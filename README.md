@@ -1,135 +1,183 @@
-# CS2 Players API
+# API CS2 Players
 
-Une API REST pour accéder aux données des joueurs CS2, avec une documentation interactive.
+Une API REST simple pour accéder aux statistiques des joueurs professionnels de Counter-Strike 2 (CS2).
 
-## 🚀 Fonctionnalités
+## Prérequis
 
-- Récupération des données des joueurs CS2
-- Documentation interactive
-- Interface de test intégrée
-- Recherche par nom d'équipe ou de joueur
-- Filtrage par équipe
-- Support CORS
-- Mise à jour automatique hebdomadaire des données (tous les lundis à 2h du matin)
+- Node.js (version 14 ou supérieure)
+- npm (gestionnaire de paquets Node.js)
 
-## 📋 Prérequis
+## Installation
 
-- Node.js (v14 ou supérieur)
-- npm (v6 ou supérieur)
+1. Cloner le dépôt :
+   ```bash
+   git clone https://github.com/votre-utilisateur/CS2-API.git
+   cd CS2-API
+   ```
 
-## 🔧 Installation
+2. Installer les dépendances :
+   ```bash
+   npm install
+   ```
 
-1. Clonez le repository :
+3. Démarrer le serveur :
+   ```bash
+   npm start
+   ```
 
-```bash
-git clone [URL_DU_REPO]
-cd scrappePro
+Le serveur démarrera sur `http://localhost:3000` par défaut.
+
+## Documentation de l'API
+
+### Base URL
+Toutes les requêtes doivent être préfixées par : `http://localhost:3000/api`
+
+### Endpoints
+
+#### 1. Récupérer tous les joueurs
+```
+GET /players
 ```
 
-2. Installez les dépendances :
-
-```bash
-npm install
+**Réponse réussie (200 OK) :**
+```json
+[
+  {
+    "id": "1",
+    "username": "ZywOo",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/FR.gif",
+    "age": "24 years",
+    "team": "Vitality",
+    "majors": "9"
+  },
+  // ... autres joueurs
+]
 ```
 
-3. Démarrez l'API :
-
-```bash
-npm start
+#### 2. Récupérer un joueur par son ID
+```
+GET /players/:id
 ```
 
-L'API sera accessible sur `http://localhost:3001`
+**Paramètres :**
+- `id` (requis) : L'identifiant unique du joueur
 
-## 📚 Documentation
-
-La documentation interactive est disponible à l'adresse : `http://localhost:3001/docs`
-
-### Endpoints disponibles
-
-- `GET /api/players` : Liste tous les joueurs
-- `GET /api/players/:id` : Récupère un joueur spécifique
-- `GET /api/teams` : Liste toutes les équipes
-- `GET /api/teams/:team/players` : Liste les joueurs d'une équipe
-- `GET /api/search?query=terme` : Recherche des joueurs
-
-## 🔍 Exemples d'utilisation
-
-### Récupérer tous les joueurs
-
-```bash
-curl http://localhost:3001/api/players
-```
-
-### Rechercher un joueur
-
-```bash
-curl http://localhost:3001/api/search?query=donk
-```
-
-### Obtenir les joueurs d'une équipe
-
-```bash
-curl http://localhost:3001/api/teams/Spirit/players
-```
-
-## 🛠️ Structure du projet
-
-```
-scrappePro/
-├── api.js           # Serveur API Express avec mise à jour automatique
-├── index.js         # Script de scraping
-├── players.json     # Base de données des joueurs
-├── docs/            # Documentation
-│   ├── index.html   # Page de documentation
-│   └── style.css    # Styles de la documentation
-└── package.json     # Dépendances et scripts
-```
-
-## 🔄 Mise à jour automatique
-
-L'API est configurée pour mettre à jour automatiquement les données des joueurs tous les lundis à 2h du matin. Cette mise à jour :
-
-- Récupère les dernières informations des joueurs
-- Met à jour les statistiques
-- Actualise les équipes et les trophées
-- Conserve l'historique des données
-
-Pour que la mise à jour automatique fonctionne correctement, assurez-vous que :
-
-- Le serveur est en cours d'exécution 24/7
-- La connexion Internet est stable
-- Les ressources système sont suffisantes
-
-## 📝 Format des données
-
-### Joueur
-
+**Réponse réussie (200 OK) :**
 ```json
 {
-  "id": "string",
-  "nickname": "string",
-  "team": "string",
-  "nationality": "string",
-  "age": "string",
-  "prize": "string",
-  "trophies": "number"
+  "id": "1",
+  "username": "ZywOo",
+  "flag_url": "https://www.hltv.org/img/static/flags/30x20/FR.gif",
+  "age": "24 years",
+  "team": "Vitality",
+  "majors": "9"
 }
 ```
 
-## 🤝 Contribution
+**Erreur (404 Not Found) :**
+```json
+{
+  "error": "Joueur non trouvé"
+}
+```
 
-Les contributions sont les bienvenues ! N'hésitez pas à :
+#### 3. Récupérer les joueurs par équipe
+```
+GET /players/team/:team
+```
 
-1. Fork le projet
-2. Créer une branche (`git checkout -b feature/AmazingFeature`)
-3. Commit vos changements (`git commit -m 'Add some AmazingFeature'`)
-4. Push sur la branche (`git push origin feature/AmazingFeature`)
-5. Ouvrir une Pull Request
+**Paramètres :**
+- `team` (requis) : Le nom de l'équipe
 
-## 📄 Licence
+**Réponse réussie (200 OK) :**
+```json
+[
+  {
+    "id": "1",
+    "username": "ZywOo",
+    "flag_url": "https://www.hltv.org/img/static/flags/30x20/FR.gif",
+    "age": "24 years",
+    "team": "Vitality",
+    "majors": "9"
+  },
+  // ... autres joueurs de la même équipe
+]
+```
 
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+**Erreur (404 Not Found) :**
+```json
+{
+  "error": "Aucun joueur trouvé pour cette équipe"
+}
+```
 
-## 📧 Contact
+#### 4. Récupérer la liste des équipes
+```
+GET /teams
+```
 
-Pour toute question ou suggestion, n'hésitez pas à ouvrir une issue.
+**Réponse réussie (200 OK) :**
+```json
+[
+  "Vitality",
+  "Spirit",
+  "FaZe",
+  // ... autres équipes
+]
+```
+
+### Codes d'erreur
+
+- `200 OK` : Requête réussie
+- `400 Bad Request` : Requête mal formée
+- `404 Not Found` : Ressource non trouvée
+- `500 Internal Server Error` : Erreur serveur
+
+## Structure des données
+
+### Joueur
+| Champ     | Type   | Description                          |
+|-----------|--------|--------------------------------------|
+| id        | string | Identifiant unique du joueur        |
+| username  | string | Pseudo du joueur                    |
+| flag_url  | string | URL du drapeau du pays du joueur    |
+| age       | string | Âge du joueur                       |
+| team      | string | Équipe actuelle du joueur           |
+| majors    | string | Nombre de majors remportés          |
+
+## Exemple d'utilisation avec JavaScript (fetch)
+
+```javascript
+// Récupérer tous les joueurs
+fetch('http://localhost:3000/api/players')
+  .then(response => response.json())
+  .then(data => console.log(data));
+
+// Récupérer un joueur par ID
+fetch('http://localhost:3000/api/players/1')
+  .then(response => response.json())
+  .then(data => console.log(data));
+
+// Récupérer les joueurs d'une équipe
+fetch('http://localhost:3000/api/players/team/Vitality')
+  .then(response => response.json())
+  .then(data => console.log(data));
+
+// Récupérer la liste des équipes
+fetch('http://localhost:3000/api/teams')
+  .then(response => response.json())
+  .then(data => console.log(data));
+```
+
+## Développement
+
+Pour le développement, vous pouvez utiliser :
+
+```bash
+# Démarrer le serveur en mode développement (avec rechargement automatique)
+npm run dev
+```
+
+## Licence
+
+Ce projet est sous licence MIT.
