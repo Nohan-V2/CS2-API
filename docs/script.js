@@ -1,4 +1,37 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Gestion du clic sur les liens de navigation principaux
+    document.querySelectorAll('header a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            const targetId = this.getAttribute('href');
+            if (targetId === '#') return;
+            
+            e.preventDefault();
+            
+            // Mise à jour de l'URL sans rechargement de la page
+            if (history.pushState) {
+                history.pushState(null, null, targetId);
+            } else {
+                location.hash = targetId;
+            }
+            
+            // Le défilement est géré par le CSS
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                targetElement.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    });
+    
+    // Gestion du chargement de la page avec un hash dans l'URL
+    if (window.location.hash) {
+        // Petit délai pour s'assurer que le DOM est complètement chargé
+        setTimeout(() => {
+            const targetElement = document.querySelector(window.location.hash);
+            if (targetElement) {
+                targetElement.scrollIntoView({ behavior: 'smooth' });
+            }
+        }, 100);
+    }
     // Configuration de l'API
     const API_BASE_URL = 'https://cs2-api.onrender.com/api';
     
@@ -28,6 +61,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Initialisation
     initDocumentation();
+    
+    // Mettre à jour la navigation active au chargement de la page
+    updateActiveNav();
+    
+    // Mettre à jour la navigation active lors du défilement
+    window.addEventListener('scroll', updateActiveNav);
 
     // Gestionnaires d'événements
     document.querySelectorAll('.try-btn').forEach(button => {
