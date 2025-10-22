@@ -25,12 +25,12 @@ Une API REST simple pour accéder aux statistiques des joueurs professionnels de
    npm start
    ```
 
-Le serveur démarrera sur `http://localhost:3000` par défaut.
+Le serveur démarrera sur `http://localhost:3000` en développement.
 
 ## Documentation de l'API
 
 ### Base URL
-Toutes les requêtes doivent être préfixées par : `http://localhost:3000/api`
+Toutes les requêtes doivent être préfixées par : `https://cs2-api.onrender.com/api`
 
 ### Endpoints
 
@@ -154,17 +154,17 @@ fetch('http://localhost:3000/api/players')
   .then(data => console.log(data));
 
 // Récupérer un joueur par ID
-fetch('http://localhost:3000/api/players/1')
+fetch('https://cs2-api.onrender.com/api/players/1')
   .then(response => response.json())
   .then(data => console.log(data));
 
 // Récupérer les joueurs d'une équipe
-fetch('http://localhost:3000/api/players/team/Vitality')
+fetch('https://cs2-api.onrender.com/api/players/team/Vitality')
   .then(response => response.json())
   .then(data => console.log(data));
 
 // Récupérer la liste des équipes
-fetch('http://localhost:3000/api/teams')
+fetch('https://cs2-api.onrender.com/api/teams')
   .then(response => response.json())
   .then(data => console.log(data));
 ```
